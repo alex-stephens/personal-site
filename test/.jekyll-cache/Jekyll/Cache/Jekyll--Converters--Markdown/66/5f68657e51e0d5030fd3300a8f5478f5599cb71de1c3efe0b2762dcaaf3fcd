@@ -1,0 +1,19 @@
+I"=<ul class="toc__menu">
+  <li><a href="#html-elements">HTML Elements</a></li>
+  <li><a href="#body-text">Body text</a>
+    <ul>
+      <li><a href="#blockquotes">Blockquotes</a></li>
+    </ul>
+  </li>
+  <li><a href="#list-types">List Types</a>
+    <ul>
+      <li><a href="#ordered-lists">Ordered Lists</a></li>
+      <li><a href="#unordered-lists">Unordered Lists</a></li>
+    </ul>
+  </li>
+  <li><a href="#tables">Tables</a></li>
+  <li><a href="#code-snippets">Code Snippets</a></li>
+  <li><a href="#buttons">Buttons</a></li>
+  <li><a href="#notices">Notices</a></li>
+</ul>
+:ET
