@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Alex Stephens"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/avatar.jpg"
   bio              : "PhD Researcher in Robotics at the University of Oxford."
   location         : "Oxford, UK"
   email            : "alexstephens9@gmail.com"
@@ -124,6 +124,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - assets
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
