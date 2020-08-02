@@ -192,6 +192,15 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Where things are
+source              : .
+destination         : ./docs # default is ./_site
+collections_dir     : .
+plugins_dir         : _plugins
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
+
 
 # Markdown Processing
 kramdown:
