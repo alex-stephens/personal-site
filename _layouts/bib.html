@@ -1,28 +1,41 @@
 ---
 layout: default
 ---
+{{reference}}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
-{% endif %}
+<span id="{{key}}_materials">
+  <ul class="nav nav-pills">
+    {% if entry.abstract %}
+    <li><a class="bib-materials" data-target="#{{key}}_abstract" data-toggle="collapse" href="#{{key}}" onclick="return false">Abstract</a></li>
+    {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+    <li><a class="bib-materials" data-target="#{{key}}_bibtex" data-toggle="collapse" href="#{{key}}" onclick="return false">Bib</a></li>
 
-<div id="main" role="main">
-  {% include sidebar.html %}
+    {% if entry.file %}
+    <!-- {{site.baseurl}} doesn't seem to work, but /~mosb/ does: I don't know why -->
+    <li><a class="bib-materials" href="/~mosb/public/pdf/{{ entry.file }}">PDF</a></li>
+    {% endif %}
 
-  <h3  class="pubyear">Thesis</h3>
-  Text test
-  {% bibliography -f thesis %}
+    {% if entry.url %}
+    <li><a class="bib-materials" href="{{entry.url}}">web</a></li>
+    {% endif %}
 
-  <h3  class="pubyear">Papers</h3>
-  {% bibliography -f papers %}
+    {% if entry.note %}
+    <li><a class="bib-materials" href="{{entry.note}}">code</a></li>
+    {% endif %}
 
+    {% if entry.video %}
+    <li><a class="bib-materials" href="{{entry.video}}">video</a></li>
+    {% endif %}
 
-</div>
+    {% if entry.supplements %}
+    <li><a class="bib-materials" href="{{entry.code}}">supplements</a></li>
+    {% endif %}
+  </ul>
+
+  {% if entry.abstract %}
+  <p id="{{key}}_abstract" class="collapse">{{entry.abstract}}</p>
+  {% endif %}
+
+  <pre id="{{key}}_bibtex" class="pre pre-scrollable collapse">{{entry.bibtex}}</pre>
+</span>

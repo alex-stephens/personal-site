@@ -1,14 +1,16 @@
 ---
 title: "Publications"
-layout: bib
+layout: single
 permalink: "/publications/"
 date: ""
 ---
 
-### Honours Thesis
-
-Title
 
 ### Conference Papers
 
-Title
+<!-- currently sorted manually by year -->
+{% bibliography --file papers %}
+
+### Honours Thesis
+
+{% bibliography --file thesis %}
