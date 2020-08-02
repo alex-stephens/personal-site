@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+layout: bib
 permalink: "/publications/"
 date: ""
 ---
