@@ -2,40 +2,29 @@
 ---
 {{reference}}
 
-<span id="{{key}}_materials">
-  <ul class="nav nav-pills">
-    {% if entry.abstract %}
-    <li><a class="bib-materials" data-target="#{{key}}_abstract" data-toggle="collapse" href="#{{key}}" onclick="return false">Abstract</a></li>
-    {% endif %}
-
-    <li><a class="bib-materials" data-target="#{{key}}_bibtex" data-toggle="collapse" href="#{{key}}" onclick="return false">Bib</a></li>
-
-    {% if entry.file %}
-    <!-- {{site.baseurl}} doesn't seem to work, but /~mosb/ does: I don't know why -->
-    <li><a class="bib-materials" href="/~mosb/public/pdf/{{ entry.file }}">PDF</a></li>
-    {% endif %}
-
-    {% if entry.url %}
-    <li><a class="bib-materials" href="{{entry.url}}">web</a></li>
-    {% endif %}
-
-    {% if entry.note %}
-    <li><a class="bib-materials" href="{{entry.note}}">code</a></li>
-    {% endif %}
-
-    {% if entry.video %}
-    <li><a class="bib-materials" href="{{entry.video}}">video</a></li>
-    {% endif %}
-
-    {% if entry.supplements %}
-    <li><a class="bib-materials" href="{{entry.code}}">supplements</a></li>
-    {% endif %}
-  </ul>
+<!-- Buttons -->
+<p>
+  <button class="btn btnId btnPub--bibtex" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseBibtex" aria-expanded="false" aria-controls="collapseExample">
+    Bib
+  </button>
 
   {% if entry.abstract %}
-  <p id="{{key}}_abstract" class="collapse">{{entry.abstract}}</p>
+  <button class="btn btnId btnPub--abstract" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseAbstract" aria-expanded="false" aria-controls="collapseExample">
+    Abstract
+  </button>
   {% endif %}
+</p>
 
-  <pre id="{{key}}_bibtex" class="pre pre-scrollable collapse">{{entry.bibtex}}</pre>
 
-</span>
+<!-- Dropdowns -->
+<div class="collapse" id="{{entry.key}}-collapseBibtex">
+    <div class="dropDownBibtex" id="{{key}}-bibtex">
+    <pre>{{entry.bibtex}}</pre>
+    </div>
+</div>
+
+<div class="collapse" id="{{entry.key}}-collapseAbstract">
+    <div class="dropDownAbstract" id="{{key}}-abstract">
+    <pre>{{entry.abstract}}</pre>
+    </div>
+</div>
