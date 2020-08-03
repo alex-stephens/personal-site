@@ -20,7 +20,7 @@ title                    : "Alex Stephens"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alex Stephens"
-description              : "Site description"
+description              : "Alex Stephens"
 url                      : "https://alex-stephens.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "alex-stephens/alex-stephens.github.io"
