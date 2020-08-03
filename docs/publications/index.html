@@ -193,6 +193,15 @@
       
 
       
+        <li>
+          <a href="mailto:alexstephens9@gmail.com">
+            <meta itemprop="email" content="alexstephens9@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
         
           
             <li><a href="https://github.com/alex-stephens/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
@@ -204,15 +213,6 @@
         
       
 
-      
-
-      
-        <li>
-          <a href="mailto:alexstephens9@gmail.com">
-            <meta itemprop="email" content="alexstephens9@gmail.com" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
-          </a>
-        </li>
       
 
       
@@ -294,7 +294,6 @@
         
         <h3 id="papers">Papers</h3>
 
-<!-- currently sorted manually by year -->
 <ol class="bibliography"><li><span id="ebadi2020lamp">Ebadi, K., Chang, Y., Palieri, M., Stephens, A., Hatteland, A., Heiden, E., Thakur, A., Funabiki, N., Morrell, B., Wood, S., Carlone, L., &amp; Agha-mohammadi, A.-akbar. (2020). <i>LAMP: Large-Scale Autonomous Mapping and Positioning for Exploration of Perceptually-Degraded Subterranean Environments</i>.</span>
 
 <!-- Buttons -->
@@ -304,7 +303,15 @@
   </button>
 
   
+  <button class="btn btnId btnPub--abstract" type="button" data-toggle="collapse" data-target="#ebadi2020lamp-collapseAbstract" aria-expanded="false" aria-controls="collapseExample">
+    Abstract
+  </button>
+  
 
+  
+  <button class="btn btnId btnPub--abstract" type="button" onclick="window.location.href='/assets/pdf/ebadi2020lamp.pdf'">
+    PDF
+  </button>
   
 
 </p>
@@ -319,7 +326,8 @@
   year = {2020},
   eprint = {2003.01744},
   archiveprefix = {arXiv},
-  primaryclass = {eess.SP}
+  primaryclass = {eess.SP},
+  file = {ebadi2020lamp}
 }
 </pre>
     </div>
@@ -327,7 +335,7 @@
 
 <div class="collapse" id="ebadi2020lamp-collapseAbstract">
     <div class="card card-body" id="ebadi2020lamp-abstract">
-    <pre></pre>
+    <pre>Simultaneous Localization and Mapping (SLAM) in large-scale, unknown, and complex subterranean environments is a challenging problem. Sensors must operate in off-nominal conditions; uneven and slippery terrains make wheel odometry inaccurate, while long corridors without salient features make exteroceptive sensing ambiguous and prone to drift; finally, spurious loop closures that are frequent in environments with repetitive appearance, such as tunnels and mines, could result in a significant distortion of the entire map. These challenges are in stark contrast with the need to build highly-accurate 3D maps to support a wide variety of applications, ranging from disaster response to the exploration of underground extraterrestrial worlds. This paper reports on the implementation and testing of a lidar-based multi-robot SLAM system developed in the context of the DARPA Subterranean Challenge. We present a system architecture to enhance subterranean operation, including an accurate lidar-based front-end, and a flexible and robust back-end that automatically rejects outlying loop closures.We present an extensive evaluation in large-scale, challenging subterranean environments, including the results obtained in the Tunnel Circuit of the DARPA Subterranean Challenge. Finally, we discuss potential improvements, limitations of the state of the art, and future research directions.</pre>
     </div>
 </div>
 </li>
@@ -345,6 +353,10 @@
   </button>
   
 
+  
+  <button class="btn btnId btnPub--abstract" type="button" onclick="window.location.href='/assets/pdf/Bland_Hawthorn_2017.pdf'">
+    PDF
+  </button>
   
 
 </p>
@@ -364,7 +376,8 @@
   pages = {51},
   author = {Bland-Hawthorn, Joss and Maloney, Philip R. and Stephens, Alex and Zovaro, Anna and Popping, Attila},
   title = {In Search of Cool Flow Accretion onto Galaxies: Where Does the Disk Gas End?},
-  journal = {The Astrophysical Journal}
+  journal = {The Astrophysical Journal},
+  file = {Bland_Hawthorn_2017}
 }
 </pre>
     </div>
@@ -413,7 +426,10 @@
 
 <div class="collapse" id="stephens_2020-collapseAbstract">
     <div class="card card-body" id="stephens_2020-abstract">
-    <pre>Recent developments in the capabilities of mobile robots have led to increasingly diverse applications in areas that are too dull, dirty or dangerous for humans. Subterranean environments such as mining facilities, cave networks and the urban underground are some of the most challenging for mobile robots, often involving complex unknown topologies, rough or unstable terrain, and degraded sensing and communication capabilities. The development of collaborative autonomous robots to effectively explore and map subterranean environments would assist in terrestrial appli- cations such as disaster response or search and rescue, as well as provide unprecedented opportunities for exploration of other worlds. Operations in subterranean environments bring to light many domain-specific chal- lenges for multi-robot systems. Current frameworks for multi-robot simultaneous lo- calisation and mapping (SLAM) are largely untested in environments with limited communications, repetitive structures and few distinct visual features. This thesis con- tributes to the development of a robust multi-robot SLAM system for subterranean exploration and mapping. Contributions include design and implementation of a modular and extensible system architecture for multi-robot SLAM in subterranean environments; development of a novel methodology for performance evaluation with sparse ground truth data; and implementation and testing of an algorithm for inter-robot data association under computational constraints.</pre>
+    <pre>Recent developments in the capabilities of mobile robots have led to increasingly diverse applications in areas that are too dull, dirty or dangerous for humans. Subterranean environments such as mining facilities, cave networks and the urban underground are some of the most challenging for mobile robots, often involving complex unknown topologies, rough or unstable terrain, and degraded sensing and communication capabilities. The development of collaborative autonomous robots to effectively explore and map subterranean environments would assist in terrestrial applications such as disaster response or search and rescue, as well as provide unprecedented opportunities for exploration of other worlds.
+
+Operations in  subterranean environments bring to light many domain-specific challenges for multi-robot systems. Current frameworks for multi-robot \acrfullSLAM are largely untested in environments with limited communications, repetitive structures and few distinct visual features. This thesis contributes to the development of a robust multi-robot SLAM system for subterranean exploration and mapping. Contributions include design and implementation of a modular and extensible system architecture for multi-robot SLAM in subterranean environments; development of a novel methodology for performance evaluation with sparse ground truth data; and implementation and testing of an algorithm for inter-robot data association under computational constraints.
+</pre>
     </div>
 </div>
 </li></ol>
