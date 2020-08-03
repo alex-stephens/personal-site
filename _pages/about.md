@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 permalink: "/about/"
-date: ""
+# date: ""
 ---
 
 Stuff about me blah blah...
