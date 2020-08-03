@@ -1,7 +1,8 @@
 ---
 title: "Publications"
-layout: single
+layout: publications
 permalink: "/publications/"
+bold_author_name: true
 # date: ""
 ---
 

@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Publications - Alex Stephens</title>
-<meta name="description" content="Site description">
+<meta name="description" content="Alex Stephens">
 
 
   <meta name="author" content="Alex Stephens">
@@ -23,7 +23,7 @@
 <meta property="og:url" content="http://localhost:4000/publications/">
 
 
-  <meta property="og:description" content="Site description">
+  <meta property="og:description" content="Alex Stephens">
 
 
 
@@ -102,7 +102,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--publications">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -288,7 +288,7 @@
         </header>
       
 
-      <section class="page__content" itemprop="text">
+      <section class="page__content" id="pub__content" itemprop="text">
         
         <h3 id="papers">Papers</h3>
 
@@ -438,6 +438,14 @@ Operations in  subterranean environments bring to light many domain-specific cha
 </li></ol>
 
         
+
+        
+        <script>
+            document.getElementById("pub__content").innerHTML
+             = document.getElementById("pub__content").innerHTML.replace(/Stephens, A./g,'<b>Stephens, A.</b>')
+        </script>
+        
+
       </section>
 
       <footer class="page__meta">
