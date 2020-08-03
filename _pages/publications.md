@@ -5,7 +5,7 @@ permalink: "/publications/"
 date: ""
 ---
 
-### Conference Papers
+### Papers
 
 <!-- currently sorted manually by year -->
 {% bibliography --file papers %}

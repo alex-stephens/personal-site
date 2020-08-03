@@ -121,29 +121,14 @@ footer:
       url: "https://www.linkedin.com/in/alex-stephens/"
 
 # Jekyll scholar
-# scholar:
-#   style: apa
-#   locale: en
-#   source: /_bibliography/
-#   bibliography: thesis.bib
-#   bibliography_template: bib
-
-  # replace_strings: true
-  # join_strings: true
-  #
-  # details_dir: bibliography
-  # details_layout: bib.html
-  # details_link: Details
-  #
-  # query: "@*"
-# scholar:
-#   style: apa
-#   repository: public/pdf
-#   replace_strings: true
-#   join_strings: true
-#   bibliography_template: bibliography
-#   sort_by: year
-#   order: descending
+scholar:
+  style: apa
+  repository: public/pdf
+  replace_strings: true
+  join_strings: true
+  bibliography_template: bibliography
+  sort_by: year
+  order: descending
 
 
 # Reading Files
