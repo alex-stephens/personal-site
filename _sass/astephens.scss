@@ -1,5 +1,7 @@
-
+// unformatted text blocks
 pre {
+   display: inline;
+   margin: 0; // remove trailing linebreak
    overflow-x: auto;
    white-space: pre-wrap;
    white-space: -moz-pre-wrap;
