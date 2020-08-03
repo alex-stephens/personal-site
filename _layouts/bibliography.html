@@ -3,8 +3,9 @@
 {{reference}}
 
 <!-- Buttons -->
-<p>
-  <button class="btn btnId btnPub--bibtex" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseBibtex" aria-expanded="false" aria-controls="collapseExample">
+<div class="btn-toolbar">
+
+  <button class="btn btnId btnPub--bib" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseBibtex" aria-expanded="false" aria-controls="collapseExample">
     Bib
   </button>
 
@@ -15,12 +16,11 @@
   {% endif %}
 
   {% if entry.file %}
-  <button class="btn btnId btnPub--abstract" type="button" onclick="window.location.href='/assets/pdf/{{entry.file}}.pdf'">
+  <button class="btn btnId btnPub--file" type="button" onclick="window.location.href='/assets/pdf/{{entry.file}}.pdf'">
     PDF
   </button>
   {% endif %}
-
-</p>
+</div>
 
 
 <!-- Dropdowns -->
