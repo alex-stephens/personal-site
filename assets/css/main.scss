@@ -4,5 +4,12 @@
 
 @charset "utf-8";
 
+// Bootstrap 4.0.0
+@import "bootstrap/bootstrap";
+
+// Minimal Mistakes theme
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// custom
+// @import "astephens"
