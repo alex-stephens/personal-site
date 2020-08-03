@@ -9,3 +9,7 @@ pre {
    white-space: -o-pre-wrap;
    word-wrap: break-word;
 }
+
+.card-body {
+  padding: 0.5em; // smaller card spacer than default
+}

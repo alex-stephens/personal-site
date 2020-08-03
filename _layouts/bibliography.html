@@ -13,18 +13,24 @@
     Abstract
   </button>
   {% endif %}
+
+  {% if entry.file %}
+  <!-- {{site.baseurl}} doesn't seem to work, but /~mosb/ does: I don't know why -->
+  <li><a class="bib-materials" href="/~mosb/public/pdf/{{ entry.file }}">PDF</a></li>
+  {% endif %}
+
 </p>
 
 
 <!-- Dropdowns -->
 <div class="collapse" id="{{entry.key}}-collapseBibtex">
-    <div class="card" id="{{key}}-bibtex">
+    <div class="card card-body" id="{{key}}-bibtex">
     <pre>{{entry.bibtex}}</pre>
     </div>
 </div>
 
 <div class="collapse" id="{{entry.key}}-collapseAbstract">
-    <div class="card" id="{{key}}-abstract">
+    <div class="card card-body" id="{{key}}-abstract">
     <pre>{{entry.abstract}}</pre>
     </div>
 </div>
