@@ -48,7 +48,7 @@ layout: default
         {% if page.bold_author_name == true %}
         <script>
             document.getElementById("pub__content").innerHTML
-             = document.getElementById("pub__content").innerHTML.replace(/Stephens, A./g,'<b>Stephens, A.</b>')
+             = document.getElementById("pub__content").innerHTML.replace(/Stephens, A\./g,'<b>Stephens, A.</b>')
         </script>
         {% endif %}
 
