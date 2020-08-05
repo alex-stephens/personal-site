@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Alex Stephens"
 description              : "Alex Stephens"
 url                      : "https://alex-stephens.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alex-stephens/alex-stephens.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -135,7 +135,7 @@ scholar:
 include:
   - .htaccess
   - _pages
-  - assets
+  # - assets
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -180,11 +180,11 @@ incremental: false
 # Where things are
 source              : .
 destination         : ./docs # default is ./_site
-collections_dir     : .
-plugins_dir         : _plugins
-layouts_dir         : _layouts
-data_dir            : _data
-includes_dir        : _includes
+# collections_dir     : .
+# plugins_dir         : _plugins
+# layouts_dir         : _layouts
+# data_dir            : _data
+# includes_dir        : _includes
 
 
 # Markdown Processing
@@ -206,14 +206,14 @@ sass:
 
 
 
-footer_scripts:
+# footer_scripts:
 
-after_footer_scripts:
+# after_footer_scripts:
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: "/blog/page:num/" #/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

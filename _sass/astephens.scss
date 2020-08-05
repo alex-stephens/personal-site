@@ -12,6 +12,8 @@ pre {
 
 .card-body {
   padding: 0.5em; // smaller card spacer than default
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 // buttons
@@ -23,7 +25,7 @@ pre {
 
 
 .btnId {
-  font-size: 1.0em;
+  font-size: 0.8em;
   color: darkgray;
   text-transform: lowercase;
   border: 1px solid lightgray;
