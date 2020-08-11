@@ -109,6 +109,8 @@ author:
 # Site Footer
 footer:
   feed: false
+  labels: false # show labels on social icons
+  copyright: true
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
