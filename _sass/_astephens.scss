@@ -1,19 +1,20 @@
 // unformatted text blocks
 pre {
-   display: inline;
-   margin: 0; // remove trailing linebreak
-   overflow-x: auto;
-   white-space: pre-wrap;
-   white-space: -moz-pre-wrap;
-   white-space: -pre-wrap;
-   white-space: -o-pre-wrap;
-   word-wrap: break-word;
+    font-size: $type-size-7;
+    display: inline;
+    margin: 0; // remove trailing linebreak
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 .card-body {
-  padding: 0.5em; // smaller card spacer than default
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+    padding: 0.5em; // smaller card spacer than default
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
 }
 
 // buttons
@@ -25,17 +26,46 @@ pre {
 
 
 .btnId {
-  font-size: 0.8em;
-  color: $primary-color;
-  text-transform: lowercase;
-  border: 1px solid lightgray;
-  margin-right:5px;
-  height: 2.0em;
-  text-align: center;
-  padding: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+    font-size: 0.8em;
+    color: $primary-color;
+    text-transform: lowercase;
+    border: 1px solid lightgray;
+    margin-right:5px;
+    height: 2.0em;
+    text-align: center;
+    padding: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
+
+// invisible links - no highlight unless hovered over, no underline
+a.hidden-link {
+    &:link,
+    &:visited {
+        color: $primary-color;
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: $link-color-hover;
+    }
+}
+
+// i.footer-icon {
+//     font-size: 2em;
+//     color: red;
+// }
+
+.ftlink {
+    font-size: 2em;
+    color: red;
+}
+
+
+// a.invisible:hover {
+//     color: black;
+//     text-decoration: inherit;
+// }
 
 // .btnPub--bib {
 //     background-color: coral;

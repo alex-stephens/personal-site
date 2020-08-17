@@ -16,8 +16,8 @@ en: &DEFAULT_EN
   search_label               : "Toggle search"
   toc_label                  : "On this page"
   ext_link_label             : "Direct link"
-  less_than                  : "less than"
-  minute_read                : "minute read"
+  less_than                  : "<" #"less than"
+  minute_read                : "min read" # "minute read"
   share_on_label             : "Share on"
   meta_label                 :
   tags_label                 : "Tags:"
