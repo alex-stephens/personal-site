@@ -51,6 +51,17 @@ $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
 
+/* font size for body text */
+$body-font-size: $type-size-5 !default;
+$meta-font-size: $type-size-7 !default;
+$meta-font-weight: 400px !default;
+
+/* margins */
+$page-meta-margin: -0.5em !default;
+
+/* header alignment */
+$header-align: center !default;
+
 /*
    Colors
    ========================================================================== */
@@ -65,7 +76,7 @@ $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
-$muted-text-color: mix(#fff, $text-color, 20%) !default;
+$muted-text-color: mix(#fff, $text-color, 50%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;

@@ -5,6 +5,7 @@
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
+  font-size: $body-font-size;
 
   @include breakpoint($large) {
     float: right;
@@ -44,9 +45,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
-  // font-family: $sans-serif-narrow;
-  line-height: initial;
+  line-height: 1;
   overflow: hidden;
   text-overflow: ellipsis;
 
@@ -62,6 +61,10 @@
   a + a {
     opacity: 0.5;
   }
+
+  & + .page__meta {
+    margin-top: $page-meta-margin;
+  }
 }
 
 /* remove border*/
@@ -74,7 +77,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $body-font-size;
 
   & + p {
     text-indent: 0;
@@ -126,8 +129,8 @@
 
 .list__item {
   .page__meta {
-    margin: -0.5em 0 4px;
-    font-size: 0.6em;
+    // margin: -0.5em 0 4px;
+    // font-size: 0.6em;
   }
 }
 
@@ -197,12 +200,13 @@
   }
 
   .page__meta {
-    margin: 0 0 4px;
-    font-size: 0.6em;
+    // margin: 0 0 4px;
+    // font-size: 0.6em;
   }
 
   .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 0em;
+    line-height: 1;
     font-size: $type-size-5;
   }
 

@@ -73,7 +73,7 @@ body {
   line-height: 1;
 
   & + .page__meta {
-    margin-top: -0.5em;
+    margin-top: $page-meta-margin;
   }
 }
 
@@ -108,7 +108,7 @@ body {
   p,
   li,
   dl {
-    font-size: $type-size-6; // main body font size
+    font-size: $body-font-size; // main body font size
   }
 
   /* paragraph indents */
@@ -279,10 +279,12 @@ body {
    ========================================================================== */
 
 .page__meta {
-  margin-top: 2em;
   color: $muted-text-color;
   font-family: $sans-serif;
-  font-size: $type-size-7;
+  font-size: $meta-font-size;
+  font-weight: 600;
+  text-align: $header-align;
+  text-transform: uppercase;
 
   p {
     margin: 0;
