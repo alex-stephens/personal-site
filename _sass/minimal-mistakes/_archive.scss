@@ -59,7 +59,7 @@
   }
 
   a + a {
-    opacity: 0.5;
+    opacity: 1.0;
   }
 
   & + .page__meta {
@@ -78,6 +78,9 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $body-font-size;
+
+  padding-bottom: 1em;
+  border-bottom: 1px solid $border-color;
 
   & + p {
     text-indent: 0;

@@ -6,23 +6,23 @@
 <div class="btn-toolbar">
 
   {% if entry.abstract %}
-  <button class="btn btnId btnPub--abstract" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseAbstract" aria-expanded="false" aria-controls="collapseExample">
+  <button class="btn btn-bib" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseAbstract" aria-expanded="false" aria-controls="collapseExample">
     Abstract
   </button>
   {% endif %}
 
-  <button class="btn btnId btnPub--bib" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseBibtex" aria-expanded="false" aria-controls="collapseExample">
+  <button class="btn btn-bib" type="button" data-toggle="collapse" data-target="#{{entry.key}}-collapseBibtex" aria-expanded="false" aria-controls="collapseExample">
     Bib
   </button>
 
   {% if entry.file %}
-  <button class="btn btnId btnPub--file" type="button" onclick="window.location.href='/assets/pdf/{{entry.file}}.pdf'">
+  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/pdf/{{entry.file}}.pdf'">
     PDF
   </button>
   {% endif %}
 
   {% if entry.url %}
-  <button class="btn btnId btnPub--url" type="button" onclick="window.location.href='{{entry.url}}'">
+  <button class="btn btn-bib" type="button" onclick="window.location.href='{{entry.url}}'">
     Web
   </button>
   {% endif %}

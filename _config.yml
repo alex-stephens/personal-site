@@ -12,10 +12,10 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "custom" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 title                    : "Alex Stephens"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Alex Stephens"
-  avatar           : "assets/images/avatar.jpg"
+  avatar           : "assets/images/avatar-icon.jpg"
   bio              : "PhD Researcher in Robotics at the University of Oxford."
   location         : "Oxford, UK"
   email            : "alexstephens9@gmail.com"
@@ -292,4 +292,5 @@ defaults:
       read_time: true
       comments: # true
       share: true
+      share_label_text: false
       related: true

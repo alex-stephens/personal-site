@@ -25,9 +25,10 @@ pre {
 }
 
 
-.btnId {
-    font-size: 0.8em;
+.btn-bib {
+    font-size: 0.7em;
     color: $primary-color;
+    // background-color: transparent;
     text-transform: lowercase;
     border: 1px solid lightgray;
     margin-right:5px;
@@ -36,6 +37,33 @@ pre {
     padding: 0;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.btn-share {
+    padding: 0 0.05em;
+    font-size: 1.5em;
+
+    color: $info-color;
+
+    &:visited {
+      color: $info-color;
+    }
+}
+
+// .fa-social {
+//     color: $info-color;
+// }
+
+// default colours override
+.social-icons {
+    .fas,
+    .fab,
+    .far,
+    .fal,
+    .fa-linkedin,
+    .fa-github {
+      color: $text-color;
+    }
 }
 
 // invisible links - no highlight unless hovered over, no underline
@@ -65,16 +93,4 @@ a.hidden-link {
 // a.invisible:hover {
 //     color: black;
 //     text-decoration: inherit;
-// }
-
-// .btnPub--bib {
-//     background-color: coral;
-// }
-//
-// .btnPub--abstract {
-//     background-color: lightblue;
-// }
-//
-// .btnPub--file {
-//     background-color: lightgreen;
 // }

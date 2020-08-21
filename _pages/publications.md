@@ -6,10 +6,10 @@ bold_author_name: true
 # date: ""
 ---
 
-### Papers
+## Papers
 
 {% bibliography --file papers %}
 
-### Honours Thesis
+## Honours Thesis
 
 {% bibliography --file thesis %}

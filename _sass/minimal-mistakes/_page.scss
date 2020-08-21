@@ -250,9 +250,11 @@ body {
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
+  margin-top: 0em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
+  text-align: center;
+  color: $text-color;
 
   @include breakpoint(max-width $small) {
     .btn span {
@@ -271,7 +273,7 @@ body {
 .page__share-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 /*
