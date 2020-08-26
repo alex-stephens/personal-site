@@ -253,7 +253,7 @@ body {
   margin-top: 0em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
-  text-align: center;
+  text-align: left;
   color: $text-color;
 
   @include breakpoint(max-width $small) {
@@ -272,7 +272,8 @@ body {
 
 .page__share-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
+  font-size: $body-font-size;
+  font-weight: bold;
   // text-transform: uppercase;
 }
 

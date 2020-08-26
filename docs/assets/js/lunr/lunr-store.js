@@ -1,13 +1,7 @@
 var store = [{
-        "title": "Test Post Please Ignore",
-        "excerpt":"Test post please ignore  ","categories": [],
+        "title": "Generative Art: Greater than the Sum of its Parts",
+        "excerpt":"Generative art refers to any art practice where the artist uses a system, such as a set of natural language rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art....","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/blog/test-post/",
-        "teaser": null
-      },{
-        "title": "Hello",
-        "excerpt":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/blog/hello/",
+        "url": "http://localhost:4000/blog/generative/",
         "teaser": null
       }]

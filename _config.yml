@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : astephens__
 facebook:
   username               :
   app_id                 :
@@ -97,14 +97,17 @@ author:
   avatar           : "assets/images/avatar-icon.jpg"
   bio              : "PhD Researcher in Robotics at the University of Oxford."
   location         : "Oxford, UK"
-  email            : "alexstephens9@gmail.com"
+  email            : "alex.stephens@eng.ox.ac.uk"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alex-stephens/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/alex-stephens/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/astephens__"
 
 # Site Footer
 footer:
@@ -113,14 +116,17 @@ footer:
   copyright: true
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:alexstephens9@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:alex.stephens@eng.ox.ac.uk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alex-stephens/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/alex-stephens/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/astephens__"
 
 # Jekyll scholar
 scholar:
@@ -293,4 +299,4 @@ defaults:
       comments: # true
       share: true
       share_label_text: false
-      related: true
+      related: false

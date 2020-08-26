@@ -24,7 +24,6 @@ pre {
     padding: 0;
 }
 
-
 .btn-bib {
     font-size: 0.7em;
     color: $primary-color;
@@ -41,7 +40,7 @@ pre {
 
 .btn-share {
     padding: 0 0.05em;
-    font-size: 1.5em;
+    font-size: 1em;
 
     color: $info-color;
 
@@ -50,10 +49,6 @@ pre {
     }
 }
 
-// .fa-social {
-//     color: $info-color;
-// }
-
 // default colours override
 .social-icons {
     .fas,
@@ -61,6 +56,7 @@ pre {
     .far,
     .fal,
     .fa-linkedin,
+    .fa-twitter,
     .fa-github {
       color: $text-color;
     }
@@ -79,18 +75,38 @@ a.hidden-link {
     }
 }
 
-// i.footer-icon {
-//     font-size: 2em;
-//     color: red;
-// }
-
 .ftlink {
     font-size: 2em;
     color: red;
 }
 
+// images
+img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
 
-// a.invisible:hover {
-//     color: black;
-//     text-decoration: inherit;
+.carousel {
+    data-interval: 500;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.carousel img {
+     margin: auto;
+}
+
+// .carousel img {
+//     border: 0px;
+// }
+
+
+
+// .inner-item {
+//     text-align: center;
+//     img {
+//         margin: 0 auto;
+//     }
 // }
