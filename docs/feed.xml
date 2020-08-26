@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://alex-stephens.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alex-stephens.github.io/" rel="alternate" type="text/html" /><updated>2020-08-26T11:25:50+10:00</updated><id>https://alex-stephens.github.io/feed.xml</id><title type="html">Alex Stephens</title><subtitle>Alex Stephens</subtitle><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><entry><title type="html">Generative Art: Greater than the Sum of its Parts</title><link href="https://alex-stephens.github.io/blog/generative/" rel="alternate" type="text/html" title="Generative Art: Greater than the Sum of its Parts" /><published>2020-08-26T00:00:00+10:00</published><updated>2020-08-26T00:00:00+10:00</updated><id>https://alex-stephens.github.io/blog/generative</id><content type="html" xml:base="https://alex-stephens.github.io/blog/generative/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://alex-stephens.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alex-stephens.github.io/" rel="alternate" type="text/html" /><updated>2020-08-26T22:45:35+10:00</updated><id>https://alex-stephens.github.io/feed.xml</id><title type="html">Alex Stephens</title><subtitle>Alex Stephens</subtitle><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><entry><title type="html">Generative Art: Greater than the Sum of its Parts</title><link href="https://alex-stephens.github.io/blog/generative/" rel="alternate" type="text/html" title="Generative Art: Greater than the Sum of its Parts" /><published>2020-08-26T00:00:00+10:00</published><updated>2020-08-26T00:00:00+10:00</updated><id>https://alex-stephens.github.io/blog/generative</id><content type="html" xml:base="https://alex-stephens.github.io/blog/generative/">&lt;blockquote&gt;
   &lt;p&gt;Generative art refers to any art practice where the artist uses a system, such
 as a set of natural language rules, a computer program, a machine, or other
 procedural invention, which is set into motion with some degree of autonomy
@@ -59,4 +59,34 @@ contributing to or resulting in a completed work of art.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Part of the beauty of generating art from code is that once the base program is written, modifications of this type (scaling, layering, etc.) are quick and easy. This is part of why the genre lends itself so well to experimentation, either manually or through randomisation.&lt;/p&gt;</content><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><summary type="html">Generative art refers to any art practice where the artist uses a system, such as a set of natural language rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art. Philip Galanter</summary></entry></feed>
+&lt;p&gt;Part of the beauty of generating art from code is that once the base program is written, modifications of this type (scaling, layering, etc.) are quick and easy. This is part of why the genre lends itself so well to experimentation, either manually or through randomisation.&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;
+    &lt;div id=&quot;carouselTruchetColored&quot; class=&quot;carousel slide carousel-fade&quot; data-ride=&quot;carousel&quot; data-interval=&quot;2500&quot;&gt;
+
+      &lt;div class=&quot;carousel-inner&quot;&gt;
+        &lt;div class=&quot;carousel-item active&quot;&gt;
+          &lt;img src=&quot;/assets/2020-08-26-generative/colored-1.png&quot; alt=&quot;Pattern 1&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;carousel-item&quot;&gt;
+          &lt;img src=&quot;/assets/2020-08-26-generative/colored-2.png&quot; alt=&quot;Pattern 2&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;carousel-item&quot;&gt;
+          &lt;img src=&quot;/assets/2020-08-26-generative/colored-3.png&quot; alt=&quot;Pattern 3&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;carousel-item&quot;&gt;
+          &lt;img src=&quot;/assets/2020-08-26-generative/colored-4.png&quot; alt=&quot;Pattern 4&quot; /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselTruchetColored&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+        &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselTruchetColored&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+        &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+      &lt;/a&gt;
+
+    &lt;/div&gt;
+&lt;/p&gt;</content><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><summary type="html">Generative art refers to any art practice where the artist uses a system, such as a set of natural language rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art. Philip Galanter</summary></entry></feed>

@@ -65,3 +65,33 @@ So where can we take it from here? One way to extend the design is by layering t
 </p>
 
 Part of the beauty of generating art from code is that once the base program is written, modifications of this type (scaling, layering, etc.) are quick and easy. This is part of why the genre lends itself so well to experimentation, either manually or through randomisation.
+
+<p align="middle">
+    <div id="carouselTruchetColored" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/2020-08-26-generative/colored-1.png" alt="Pattern 1">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/2020-08-26-generative/colored-2.png" alt="Pattern 2">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/2020-08-26-generative/colored-3.png" alt="Pattern 3">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/2020-08-26-generative/colored-4.png" alt="Pattern 4">
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselTruchetColored" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselTruchetColored" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+</p>
