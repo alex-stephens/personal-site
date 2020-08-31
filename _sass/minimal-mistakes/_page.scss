@@ -255,6 +255,7 @@ body {
   border-top: 1px solid $border-color;
   text-align: left;
   color: $text-color;
+  font-size: $body-font-size;
 
   @include breakpoint(max-width $small) {
     .btn span {

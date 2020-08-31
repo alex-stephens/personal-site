@@ -96,4 +96,4 @@ Finally, let's add some colour. Shown below are a few more layered Truchet patte
     </div>
 </p>
 
-The addition of colour only makes the patterns much more interesting to look at, but differentiates them even further from each other. The beauty and complexity of the final artwork disguises the simplicity of the building blocks - a statement that is true of the simple patterns seen in this post, and also of generative art as a whole.
+The addition of colour not only makes the patterns much more interesting to look at, but differentiates them even further from each other. The beauty and complexity of the final artwork disguises the simplicity of the building blocks - a statement that is true of the simple patterns seen in this post, and also of generative art as a whole.
