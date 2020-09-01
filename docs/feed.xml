@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://alex-stephens.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alex-stephens.github.io/" rel="alternate" type="text/html" /><updated>2020-08-31T14:27:27+10:00</updated><id>https://alex-stephens.github.io/feed.xml</id><title type="html">Alex Stephens</title><subtitle>Alex Stephens</subtitle><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><entry><title type="html">Generative Art: Greater than the Sum of its Parts</title><link href="https://alex-stephens.github.io/blog/generative/" rel="alternate" type="text/html" title="Generative Art: Greater than the Sum of its Parts" /><published>2020-08-26T00:00:00+10:00</published><updated>2020-08-26T00:00:00+10:00</updated><id>https://alex-stephens.github.io/blog/generative</id><content type="html" xml:base="https://alex-stephens.github.io/blog/generative/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://alex-stephens.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alex-stephens.github.io/" rel="alternate" type="text/html" /><updated>2020-09-01T14:24:09+10:00</updated><id>https://alex-stephens.github.io/feed.xml</id><title type="html">Alex Stephens</title><subtitle>Alex Stephens</subtitle><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><entry><title type="html">Generative Art: Greater than the Sum of its Parts</title><link href="https://alex-stephens.github.io/blog/generative/" rel="alternate" type="text/html" title="Generative Art: Greater than the Sum of its Parts" /><published>2020-08-26T00:00:00+10:00</published><updated>2020-08-26T00:00:00+10:00</updated><id>https://alex-stephens.github.io/blog/generative</id><content type="html" xml:base="https://alex-stephens.github.io/blog/generative/">&lt;blockquote&gt;
   &lt;p&gt;Generative art refers to any art practice where the artist uses a system, such
 as a set of natural language rules, a computer program, a machine, or other
 procedural invention, which is set into motion with some degree of autonomy
@@ -11,26 +11,34 @@ contributing to or resulting in a completed work of art.&lt;/p&gt;
 
 &lt;p&gt;The process of generating art programmatically incorporates randomness and tuneable parameters, making it highly dynamic and iterative. As I experimented I found I was often surprised by the results that came from changing parameters in my code, leading me to ideas that were not part of my original vision. Equally fun is looking at other peoples’ generated artworks, and trying to deduce what algorithms or mathematical concepts might have been used to create them.&lt;/p&gt;
 
-&lt;p&gt;There are plenty of resources online that explain in more detail what generative art really is, and the many different tools and techniques that are used to create it, so these aspects won’t be discussed here. The aim of this post is to demonstrate how an extremely simple base element or idea can be iterated upon to generate patterns that are (in my opinion, at least) surprisingly complex and pleasing to the eye.&lt;/p&gt;
+&lt;p&gt;There are plenty of resources online that explain in more detail what generative art really is, and the many different tools and techniques that are used to create it, so these aspects won’t be the focus here (although if you are interested in a broader introduction to generative art, &lt;a href=&quot;https://www.artnome.com/news/2018/8/8/why-love-generative-art&quot;&gt;this article&lt;/a&gt; is pretty good). The aim of this post is to demonstrate how an extremely simple base element or idea can be iterated upon to generate patterns that are (in my opinion, at least) surprisingly complex and pleasing to the eye.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Our starting point will be the two squares shown below, each with two opposing quarter-circles drawn on them. These are really the same image, with a 90 degree rotational offset between them.&lt;/p&gt;
+&lt;p&gt;To start off, let’s have a look at an example of a generative art pattern, which I created using the Javascript library &lt;a href=&quot;https://p5js.org/&quot;&gt;p5.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p align=&quot;middle&quot;&gt;
+  &lt;img src=&quot;/assets/2020-08-26-generative/basic.png&quot; width=&quot;80%&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Looks pretty nice, right? Take a minute to look carefully at the image above, and think about this key question - &lt;strong&gt;how would you recreate the pattern?&lt;/strong&gt; We want to come up with a &lt;em&gt;plain English description&lt;/em&gt; of how one could go about producing something that looks like this. Can you come up with a simple process that would achieve this?&lt;/p&gt;
+
+&lt;p&gt;The solution is probably a lot simpler than you’re thinking - the solutions that I went to at first were definitely unnecessarily complex. In fact, all you need to construct the pattern is the two tiles shown below, each consisting of a pair of opposing quarter circles. They’re really the same tile, just with a 90 degree rotational offset between them.&lt;/p&gt;
 
 &lt;p align=&quot;middle&quot;&gt;
   &lt;img src=&quot;/assets/2020-08-26-generative/tile-1.png&quot; width=&quot;25%&quot; /&gt;
   &lt;img src=&quot;/assets/2020-08-26-generative/tile-2.png&quot; width=&quot;25%&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;On its own, there’s nothing very exciting about this… but now, look what happens when we randomly tile the two squares in a grid pattern:&lt;/p&gt;
+&lt;p&gt;To make it a bit clearer that this is true, here’s the original pattern again, this time with the tiles outlined:&lt;/p&gt;
 
 &lt;p align=&quot;middle&quot;&gt;
-  &lt;img src=&quot;/assets/2020-08-26-generative/basic.png&quot; width=&quot;80%&quot; /&gt;
+  &lt;img src=&quot;/assets/2020-08-26-generative/basic-outline.png&quot; width=&quot;80%&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;When I first saw this pattern, which is an example of something called a &lt;em&gt;Truchet pattern&lt;/em&gt;, I was pretty amazed to find out how simple it was to create. Looking only at the tiled pattern, it is not entirely obvious how one would go about creating it programmatically, yet the answer is extremely simple.&lt;/p&gt;
+&lt;p&gt;When I first saw this pattern, which is an example of something called a &lt;em&gt;Truchet pattern&lt;/em&gt;, I was pretty amazed by how simple it was to create. I was intrigued by the fact that it was not obvious from looking at the pattern how one would go about reproducing it, and yet once I found out the solution it was suddenly so simple. This, I think, is important in many types of generative art - the underlying ideas are often not as complex as they might seem at first.&lt;/p&gt;
 
-&lt;p&gt;So where can we take it from here? One way to extend our design is by layering the pattern at multiple scales, using different shades and line thicknesses to create aesthetic variation.&lt;/p&gt;
+&lt;p&gt;So what else can we do with this type of pattern? One way to extend the design is by layering the pattern at multiple scales, using different shades and line thicknesses to create aesthetic variation.&lt;/p&gt;
 
 &lt;p align=&quot;middle&quot;&gt;
     &lt;div id=&quot;carouselTruchetBW&quot; class=&quot;carousel slide carousel-fade&quot; data-ride=&quot;carousel&quot; data-interval=&quot;1500&quot;&gt;
@@ -92,4 +100,4 @@ contributing to or resulting in a completed work of art.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;The addition of colour not only makes the patterns much more interesting to look at, but differentiates them even further from each other. The beauty and complexity of the final artwork disguises the simplicity of the building blocks - a statement that is true of the simple patterns seen in this post, and also of generative art as a whole.&lt;/p&gt;</content><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><summary type="html">Generative art refers to any art practice where the artist uses a system, such as a set of natural language rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art. Philip Galanter</summary></entry></feed>
+&lt;p&gt;The addition of colour not only makes the patterns much more interesting to look at, but differentiates them even further from each other, taking us further and further from the basic tiles we started with. The beauty and complexity of the final artwork disguises the simplicity of the building blocks - a statement that is true of the simple patterns seen in this post, but also, I think, of generative art as a whole.&lt;/p&gt;</content><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><summary type="html">Generative art refers to any art practice where the artist uses a system, such as a set of natural language rules, a computer program, a machine, or other procedural invention, which is set into motion with some degree of autonomy contributing to or resulting in a completed work of art. Philip Galanter</summary></entry></feed>

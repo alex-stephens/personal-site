@@ -15,26 +15,34 @@ Since first learning about the concept of generative art, I have been intrigued 
 
 The process of generating art programmatically incorporates randomness and tuneable parameters, making it highly dynamic and iterative. As I experimented I found I was often surprised by the results that came from changing parameters in my code, leading me to ideas that were not part of my original vision. Equally fun is looking at other peoples' generated artworks, and trying to deduce what algorithms or mathematical concepts might have been used to create them.
 
-There are plenty of resources online that explain in more detail what generative art really is, and the many different tools and techniques that are used to create it, so these aspects won't be discussed here. The aim of this post is to demonstrate how an extremely simple base element or idea can be iterated upon to generate patterns that are (in my opinion, at least) surprisingly complex and pleasing to the eye.
+There are plenty of resources online that explain in more detail what generative art really is, and the many different tools and techniques that are used to create it, so these aspects won't be the focus here (although if you are interested in a broader introduction to generative art, [this article](https://www.artnome.com/news/2018/8/8/why-love-generative-art) is pretty good). The aim of this post is to demonstrate how an extremely simple base element or idea can be iterated upon to generate patterns that are (in my opinion, at least) surprisingly complex and pleasing to the eye.
 
 ---
 
-Our starting point will be the two squares shown below, each with two opposing quarter-circles drawn on them. These are really the same image, with a 90 degree rotational offset between them.
+To start off, let's have a look at an example of a generative art pattern, which I created using the Javascript library [p5.js](https://p5js.org/).
+
+<p align="middle">
+  <img src="/assets/2020-08-26-generative/basic.png" width="80%"/>
+</p>
+
+Looks pretty nice, right? Take a minute to look carefully at the image above, and think about this key question - **how would you recreate the pattern?** We want to come up with a *plain English description* of how one could go about producing something that looks like this. Can you come up with a simple process that would achieve this?
+
+The solution is probably a lot simpler than you're thinking - the solutions that I went to at first were definitely unnecessarily complex. In fact, all you need to construct the pattern is the two tiles shown below, each consisting of a pair of opposing quarter circles. They're really the same tile, just with a 90 degree rotational offset between them.
 
 <p align="middle">
   <img src="/assets/2020-08-26-generative/tile-1.png" width="25%" />
   <img src="/assets/2020-08-26-generative/tile-2.png" width="25%" />
 </p>
 
-On its own, there's nothing very exciting about this... but now, look what happens when we randomly tile the two squares in a grid pattern:
+To make it a bit clearer that this is true, here's the original pattern again, this time with the tiles outlined:
 
 <p align="middle">
-  <img src="/assets/2020-08-26-generative/basic.png" width="80%"/>
+  <img src="/assets/2020-08-26-generative/basic-outline.png" width="80%"/>
 </p>
 
-When I first saw this pattern, which is an example of something called a *Truchet pattern*, I was pretty amazed to find out how simple it was to create. Looking only at the tiled pattern, it is not entirely obvious how one would go about creating it programmatically, yet the answer is extremely simple.
+When I first saw this pattern, which is an example of something called a *Truchet pattern*, I was pretty amazed by how simple it was to create. I was intrigued by the fact that it was not obvious from looking at the pattern how one would go about reproducing it, and yet once I found out the solution it was suddenly so simple. This, I think, is important in many types of generative art - the underlying ideas are often not as complex as they might seem at first.
 
-So where can we take it from here? One way to extend our design is by layering the pattern at multiple scales, using different shades and line thicknesses to create aesthetic variation.
+So what else can we do with this type of pattern? One way to extend the design is by layering the pattern at multiple scales, using different shades and line thicknesses to create aesthetic variation.
 
 <p align="middle">
     <div id="carouselTruchetBW" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1500">
@@ -96,4 +104,4 @@ Finally, let's add some colour. Shown below are a few more layered Truchet patte
     </div>
 </p>
 
-The addition of colour not only makes the patterns much more interesting to look at, but differentiates them even further from each other. The beauty and complexity of the final artwork disguises the simplicity of the building blocks - a statement that is true of the simple patterns seen in this post, and also of generative art as a whole.
+The addition of colour not only makes the patterns much more interesting to look at, but differentiates them even further from each other, taking us further and further from the basic tiles we started with. The beauty and complexity of the final artwork disguises the simplicity of the building blocks - a statement that is true of the simple patterns seen in this post, but also, I think, of generative art as a whole.
