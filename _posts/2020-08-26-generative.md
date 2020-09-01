@@ -2,6 +2,7 @@
 layout: single
 title:  "Generative Art: Greater than the Sum of its Parts"
 published: true
+# toc: true
 ---
 
 ## What is generative art?
@@ -17,7 +18,7 @@ Since first learning of the concept of generative art, I have been intrigued by 
 
 The process of generating art programmatically typically involves randomness and tuneable parameters, making it highly dynamic and iterative. As I experimented I found I was often surprised by the results that came from changing parameters in my code, leading me to ideas that were not part of my original vision. Equally fun is looking at other peoples' generated artworks, and trying to deduce what algorithms or mathematical concepts might have been used to create them.
 
-There are plenty of resources online that explain in more detail what generative art really is, and the many different tools and techniques that are used to create it, so these aspects won't be the focus here (although if you are interested in a broader introduction to generative art, [this article](https://www.artnome.com/news/2018/8/8/why-love-generative-art) is pretty good). The aim of this post is to demonstrate how an extremely simple base element or idea can be iterated upon to generate patterns that are (in my opinion, at least) surprisingly complex and pleasing to the eye.
+There are plenty of resources online that explain in more detail what generative art really is, and the many different tools and techniques that are used to create it, so these aspects won't be the focus here (although if you are interested in a broader introduction to generative art, [this article](https://www.artnome.com/news/2018/8/8/why-love-generative-art) is excellent). The aim of this post is to demonstrate how an extremely simple base element or idea can be iterated upon to generate patterns that are (in my opinion, at least) surprisingly complex and pleasing to the eye.
 
 ## Generating a simple pattern
 
