@@ -25,7 +25,7 @@ There are plenty of resources online that explain in more detail what generative
 To start off, let's have a look at an example of a generative art pattern, which I created using the Javascript library [p5.js](https://p5js.org/).
 
 <p align="middle">
-  <img src="/assets/2020-08-26-generative/basic.png" width="80%"/>
+  <img src="/assets/2020-09-01-generative/basic.png" width="80%"/>
 </p>
 
 Looks pretty nice, right? Take a minute to look carefully at the image above, and think about this key question - **how would you recreate the pattern?** We want to come up with a *plain English description* of how one could go about producing something that looks like this. Can you come up with a simple process that would achieve this?
@@ -33,14 +33,14 @@ Looks pretty nice, right? Take a minute to look carefully at the image above, an
 The solution is probably a lot simpler than you're thinking - the solutions that I went to at first were definitely unnecessarily complex. In fact, all you need to construct the pattern is the two tiles shown below, each consisting of a pair of opposing quarter circles. They're really the same tile, just with a 90 degree rotational offset between them.
 
 <p align="middle">
-  <img src="/assets/2020-08-26-generative/tile-1.png" width="25%" />
-  <img src="/assets/2020-08-26-generative/tile-2.png" width="25%" />
+  <img src="/assets/2020-09-01-generative/tile-1.png" width="25%" />
+  <img src="/assets/2020-09-01-generative/tile-2.png" width="25%" />
 </p>
 
 To make this a bit clearer, here's the original pattern again, this time with the tiles outlined:
 
 <p align="middle">
-  <img src="/assets/2020-08-26-generative/basic-outline.png" width="80%"/>
+  <img src="/assets/2020-09-01-generative/basic-outline.png" width="80%"/>
 </p>
 
 When I first saw this, which is an example of something called a *Truchet pattern*, I was pretty amazed by how simple it was to create. I was intrigued by the fact that it was not obvious from looking at the pattern how one would go about reproducing it, and yet once I found out the solution it was suddenly so simple. This, I think, is important in many types of generative art - the underlying ideas are often not as complex as they might seem at first.
@@ -54,13 +54,13 @@ So what else can we do with this type of pattern? One way to extend the design i
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/assets/2020-08-26-generative/bw-2.png" alt="Base pattern">
+          <img src="/assets/2020-09-01-generative/bw-2.png" alt="Base pattern">
         </div>
         <div class="carousel-item">
-          <img src="/assets/2020-08-26-generative/bw-3.png" alt="Second layer">
+          <img src="/assets/2020-09-01-generative/bw-3.png" alt="Second layer">
         </div>
         <div class="carousel-item">
-          <img src="/assets/2020-08-26-generative/bw-4.png" alt="Third layer">
+          <img src="/assets/2020-09-01-generative/bw-4.png" alt="Third layer">
         </div>
       </div>
 
@@ -85,16 +85,16 @@ Finally, let's add some colour. Shown below are a few more layered Truchet patte
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/assets/2020-08-26-generative/colored-1.png" alt="Pattern 1">
+          <img src="/assets/2020-09-01-generative/colored-1.png" alt="Pattern 1">
         </div>
         <div class="carousel-item">
-          <img src="/assets/2020-08-26-generative/colored-2.png" alt="Pattern 2">
+          <img src="/assets/2020-09-01-generative/colored-2.png" alt="Pattern 2">
         </div>
         <div class="carousel-item">
-          <img src="/assets/2020-08-26-generative/colored-3.png" alt="Pattern 3">
+          <img src="/assets/2020-09-01-generative/colored-3.png" alt="Pattern 3">
         </div>
         <div class="carousel-item">
-          <img src="/assets/2020-08-26-generative/colored-4.png" alt="Pattern 4">
+          <img src="/assets/2020-09-01-generative/colored-4.png" alt="Pattern 4">
         </div>
       </div>
 

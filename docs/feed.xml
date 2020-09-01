@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://alex-stephens.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alex-stephens.github.io/" rel="alternate" type="text/html" /><updated>2020-09-01T21:07:30+10:00</updated><id>https://alex-stephens.github.io/feed.xml</id><title type="html">Alex Stephens</title><subtitle>Alex Stephens</subtitle><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><entry><title type="html">Generative Art: Greater than the Sum of its Parts</title><link href="https://alex-stephens.github.io/blog/generative/" rel="alternate" type="text/html" title="Generative Art: Greater than the Sum of its Parts" /><published>2020-08-26T00:00:00+10:00</published><updated>2020-08-26T00:00:00+10:00</updated><id>https://alex-stephens.github.io/blog/generative</id><content type="html" xml:base="https://alex-stephens.github.io/blog/generative/">&lt;h2 id=&quot;what-is-generative-art&quot;&gt;What is generative art?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-01T21:55:45+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alex Stephens</title><subtitle>Alex Stephens</subtitle><author><name>Alex Stephens</name><email>alex.stephens@eng.ox.ac.uk</email></author><entry><title type="html">Generative Art: Greater than the Sum of its Parts</title><link href="http://localhost:4000/blog/generative/" rel="alternate" type="text/html" title="Generative Art: Greater than the Sum of its Parts" /><published>2020-09-01T00:00:00+10:00</published><updated>2020-09-01T00:00:00+10:00</updated><id>http://localhost:4000/blog/generative</id><content type="html" xml:base="http://localhost:4000/blog/generative/">&lt;h2 id=&quot;what-is-generative-art&quot;&gt;What is generative art?&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Generative art refers to any art practice where the artist uses a system, such
@@ -20,7 +20,7 @@ contributing to or resulting in a completed work of art.&lt;/p&gt;
 &lt;p&gt;To start off, let’s have a look at an example of a generative art pattern, which I created using the Javascript library &lt;a href=&quot;https://p5js.org/&quot;&gt;p5.js&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p align=&quot;middle&quot;&gt;
-  &lt;img src=&quot;/assets/2020-08-26-generative/basic.png&quot; width=&quot;80%&quot; /&gt;
+  &lt;img src=&quot;/assets/2020-09-01-generative/basic.png&quot; width=&quot;80%&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Looks pretty nice, right? Take a minute to look carefully at the image above, and think about this key question - &lt;strong&gt;how would you recreate the pattern?&lt;/strong&gt; We want to come up with a &lt;em&gt;plain English description&lt;/em&gt; of how one could go about producing something that looks like this. Can you come up with a simple process that would achieve this?&lt;/p&gt;
@@ -28,14 +28,14 @@ contributing to or resulting in a completed work of art.&lt;/p&gt;
 &lt;p&gt;The solution is probably a lot simpler than you’re thinking - the solutions that I went to at first were definitely unnecessarily complex. In fact, all you need to construct the pattern is the two tiles shown below, each consisting of a pair of opposing quarter circles. They’re really the same tile, just with a 90 degree rotational offset between them.&lt;/p&gt;
 
 &lt;p align=&quot;middle&quot;&gt;
-  &lt;img src=&quot;/assets/2020-08-26-generative/tile-1.png&quot; width=&quot;25%&quot; /&gt;
-  &lt;img src=&quot;/assets/2020-08-26-generative/tile-2.png&quot; width=&quot;25%&quot; /&gt;
+  &lt;img src=&quot;/assets/2020-09-01-generative/tile-1.png&quot; width=&quot;25%&quot; /&gt;
+  &lt;img src=&quot;/assets/2020-09-01-generative/tile-2.png&quot; width=&quot;25%&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;To make this a bit clearer, here’s the original pattern again, this time with the tiles outlined:&lt;/p&gt;
 
 &lt;p align=&quot;middle&quot;&gt;
-  &lt;img src=&quot;/assets/2020-08-26-generative/basic-outline.png&quot; width=&quot;80%&quot; /&gt;
+  &lt;img src=&quot;/assets/2020-09-01-generative/basic-outline.png&quot; width=&quot;80%&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;When I first saw this, which is an example of something called a &lt;em&gt;Truchet pattern&lt;/em&gt;, I was pretty amazed by how simple it was to create. I was intrigued by the fact that it was not obvious from looking at the pattern how one would go about reproducing it, and yet once I found out the solution it was suddenly so simple. This, I think, is important in many types of generative art - the underlying ideas are often not as complex as they might seem at first.&lt;/p&gt;
@@ -49,13 +49,13 @@ contributing to or resulting in a completed work of art.&lt;/p&gt;
 
       &lt;div class=&quot;carousel-inner&quot;&gt;
         &lt;div class=&quot;carousel-item active&quot;&gt;
-          &lt;img src=&quot;/assets/2020-08-26-generative/bw-2.png&quot; alt=&quot;Base pattern&quot; /&gt;
+          &lt;img src=&quot;/assets/2020-09-01-generative/bw-2.png&quot; alt=&quot;Base pattern&quot; /&gt;
         &lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot;&gt;
-          &lt;img src=&quot;/assets/2020-08-26-generative/bw-3.png&quot; alt=&quot;Second layer&quot; /&gt;
+          &lt;img src=&quot;/assets/2020-09-01-generative/bw-3.png&quot; alt=&quot;Second layer&quot; /&gt;
         &lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot;&gt;
-          &lt;img src=&quot;/assets/2020-08-26-generative/bw-4.png&quot; alt=&quot;Third layer&quot; /&gt;
+          &lt;img src=&quot;/assets/2020-09-01-generative/bw-4.png&quot; alt=&quot;Third layer&quot; /&gt;
         &lt;/div&gt;
       &lt;/div&gt;
 
@@ -80,16 +80,16 @@ contributing to or resulting in a completed work of art.&lt;/p&gt;
 
       &lt;div class=&quot;carousel-inner&quot;&gt;
         &lt;div class=&quot;carousel-item active&quot;&gt;
-          &lt;img src=&quot;/assets/2020-08-26-generative/colored-1.png&quot; alt=&quot;Pattern 1&quot; /&gt;
+          &lt;img src=&quot;/assets/2020-09-01-generative/colored-1.png&quot; alt=&quot;Pattern 1&quot; /&gt;
         &lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot;&gt;
-          &lt;img src=&quot;/assets/2020-08-26-generative/colored-2.png&quot; alt=&quot;Pattern 2&quot; /&gt;
+          &lt;img src=&quot;/assets/2020-09-01-generative/colored-2.png&quot; alt=&quot;Pattern 2&quot; /&gt;
         &lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot;&gt;
-          &lt;img src=&quot;/assets/2020-08-26-generative/colored-3.png&quot; alt=&quot;Pattern 3&quot; /&gt;
+          &lt;img src=&quot;/assets/2020-09-01-generative/colored-3.png&quot; alt=&quot;Pattern 3&quot; /&gt;
         &lt;/div&gt;
         &lt;div class=&quot;carousel-item&quot;&gt;
-          &lt;img src=&quot;/assets/2020-08-26-generative/colored-4.png&quot; alt=&quot;Pattern 4&quot; /&gt;
+          &lt;img src=&quot;/assets/2020-09-01-generative/colored-4.png&quot; alt=&quot;Pattern 4&quot; /&gt;
         &lt;/div&gt;
       &lt;/div&gt;
 
