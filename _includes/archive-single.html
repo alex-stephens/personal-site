@@ -37,10 +37,9 @@
 
 
     {% if post.excerpt %}
-    <!-- <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 500 }}</p> -->
-    <p class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify | truncate: 500 }}
-    </p>
+    <section class="page__content">
+        {{ post.content | truncatewords: 100, "..." }}
+    </section>
     {% endif %}
   </article>
 </div>
