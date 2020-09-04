@@ -1,8 +1,6 @@
 ---
 layout: single
 title:  "Generative Art: Greater than the Sum of its Parts"
-published: true
-# toc: true
 ---
 
 ## What is generative art?

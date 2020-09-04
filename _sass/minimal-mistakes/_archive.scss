@@ -131,6 +131,10 @@
    ========================================================================== */
 
 .list__item {
+  // padding-top: $blog-padding-top;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: $sep-thickness-major solid $border-color;
   .page__meta {
     // margin: -0.5em 0 4px;
     // font-size: 0.6em;
