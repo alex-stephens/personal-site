@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/blog/generative/",
         "teaser": null
       },{
-        "title": "The Demon Haunted World and COVID",
+        "title": "The Demon Haunted World of COVID-19",
         "excerpt":"A couple of months ago, I came across a quote that has been circulating online a fair bit this year. The quote comes from the 1995 book The Demon Haunted World by the American astrophysicist and science communicator Carl Sagan. The quote is as follows: I have a foreboding of...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/blog/demon-haunted-world/",
