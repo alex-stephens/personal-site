@@ -1,1 +1,1 @@
-Sitemap: https://alex-stephens.github.io/sitemap.xml
+Sitemap: http://localhost:4000/sitemap.xml
