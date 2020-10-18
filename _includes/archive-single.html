@@ -17,13 +17,17 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
-    <h1 class="archive__item-title no_toc" itemprop="headline">
+    <h1 class="page__title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a class="hidden-link" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h1>
+    {% if post.subtitle %}
+    <h1 id="page-title" class="page__subtitle" itemprop="headline">{{ post.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+    {% endif %}
+
 
     {% if post.date %}
     <p class="page__meta">

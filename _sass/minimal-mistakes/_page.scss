@@ -75,6 +75,17 @@ body {
   & + .page__meta {
     margin-top: $page-meta-margin;
   }
+
+  & + .page__subtitle {
+    margin-top: $page-meta-margin;
+  }
+}
+
+.page__subtitle {
+    font-size: $type-size-4;
+    font-family: serif;
+    color: $dark-gray;
+    font-weight: normal;
 }
 
 .page__lead {
@@ -193,6 +204,7 @@ body {
     }
 
     .page__title,
+    .page__subtitle,
     .page__meta,
     .page__lead,
     .btn {
