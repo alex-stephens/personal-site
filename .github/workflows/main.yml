@@ -25,13 +25,16 @@ jobs:
           if [ -d "docs" ]; then
             rm -rf docs/*
           fi
+      - name: 🧑🏽Configure git
+         run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
       - name: 🔨 Build site
         run: JEKYLL_ENV=production bundle exec jekyll build -d docs
       - name: 🧪 Deploy build
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git checkout deploy
-          git add .
-          git commit -am "🧪 Deploy with ${GITHUB_WORKFLOW}"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: deploy
+          destination_dir: docs
