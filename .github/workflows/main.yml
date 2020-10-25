@@ -1,33 +1,36 @@
-# This is a basic workflow to help you get started with Actions
+name: jekyll-cd
 
-name: CI
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
+
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🎩 Install Jekyll
         run: |
-          JEKYLL_ENV=production bundle exec jekyll build
-          echo Production deployment complete
+          sudo gem install bundler jekyll
+          sudo bundle install
+      - name: 🧹 Clean site
+        run: |
+          if [ -d "docs" ]; then
+            rm -rf docs/*
+          fi
+      - name: 🔨 Build site
+        run: JEKYLL_ENV=production bundle exec jekyll build -d docs
+      - name: 🧪 Deploy build
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add .
+          git commit -am "🧪 Deploy with ${GITHUB_WORKFLOW}"
+          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
