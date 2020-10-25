@@ -26,7 +26,7 @@ jobs:
             rm -rf docs/*
           fi
       - name: 🧑🏽Configure git
-         run: |
+        run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
