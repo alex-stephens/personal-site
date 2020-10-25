@@ -9,7 +9,6 @@ For me, it was a couple of months ago, when I learned the keyboard shortcut `shi
 
 ## Life in the slow lane
 
-
 I've been a big fan of listening to podcasts sped up for quite a while now, since most podcast apps make this easy to do, and it allows me to get through more episodes than I otherwise could. I find that speeding things up a bit actually makes them more engaging and enjoyable to listen to, although the exact speed I opt for depends on the particular podcast. For more information-dense ones, I may find 1x or 1.25x is a comfortable pace, whereas others I can comfortably listen to at 1.75x or 2x. It also depends a bit on what I'm up to while listening - if I'm out on a run, my attention will be almost entirely on the podcast, so I can listen at higher speeds, whereas if I'm cooking or driving my attention might be divided so I'll opt for slightly slower.
 
 I consume plenty of content on YouTube, be it educational, entertainment, or a combination of the two, but until recently I have never regularly adjusted the playback speed on there. The main reason for this is that the user interface makes it pretty cumbersome, requiring three clicks through the menu to change speed once (and then another two if you immediately realise you want to change it again). My preferred playback speed for a given video could be anywhere from 1.25x to 2x, but the effort to adjust it for every video I watched was too much, so I never did it.
@@ -22,4 +21,4 @@ If you've ever ventured into the world of self-help and productivity literature,
 
 Optimising my playback speed for videos was something that, on some level, I have wanted to do for a long time. However, that tiny extra effort of three clicks through a menu was enough to deter me from ever actually doing it. As soon as it became a single two-button keyboard shortcut, it became a habit that I am virtually guaranteed to continue with for the foreseeable future.
 
-So take the time to flick through the keyboard shortcuts for programs (or, in this case, websites) that you spend a lot of time using, and try them out. Most of them probably won't stick, but those few that you do end up using constantly are the ones that make all the difference.
+So take the a couple of minutes to flick through the keyboard shortcuts for programs (or, in this case, websites) that you spend a lot of time on, and try some of them out. Most of them probably won't stick, but those few that you do end up using constantly are the ones that make all the difference.
