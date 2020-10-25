@@ -4,5 +4,9 @@ clean:
 prod:
 	JEKYLL_ENV=production jekyll build
 
+publish:
+	make prod
+	git push
+
 run:
 	bundle exec jekyll serve --watch
