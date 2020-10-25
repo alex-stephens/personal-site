@@ -23,6 +23,6 @@ jobs:
           gh_pages_dist_folder: docs # The folder to build the site to
           gh_pages_commit_message: Deploy with jekyll-cd # The commit message to use when deploying the site
           jekyll_build_opts: JEKYLL_ENV=production # Options to pass to the Jekyll build command.
-          committer_username: $GITHUB_ACTOR # The username to use for the committer of the commit
-          committer_email: $GITHUB_ACTOR@users.noreply.github.com # The email to use for the committer of the commit
+          committer_username: ${GITHUB_ACTOR} # The username to use for the committer of the commit
+          committer_email: ${GITHUB_ACTOR}@users.noreply.github.com # The email to use for the committer of the commit
           git_force: true # Whether to use the --force flag when pushing the commit
