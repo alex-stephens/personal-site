@@ -1,4 +1,5 @@
 .DS_store
 
 # directories
+docs/
 .jekyll-cache/
