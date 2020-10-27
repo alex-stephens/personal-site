@@ -75,11 +75,22 @@
   }
 }
 
-.achive__minimal {
+.archive__minimal {
     font-style: bold;
     margin: 0;
     padding: 0;
-    border: 0;
+    border-bottom: none;
+
+    .col-date {
+        padding-right: 20px;
+        white-space: nowrap;
+
+    }
+
+    td {
+      padding: 0em;
+      border-bottom: none;
+    }
 }
 
 
