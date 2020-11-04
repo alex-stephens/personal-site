@@ -232,6 +232,7 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
+    margin: auto; // centered
   }
 
   > a {
@@ -248,6 +249,7 @@ figure {
 
     figcaption {
       width: 100%;
+      text-align: center; // centered
     }
   }
 
@@ -265,9 +267,8 @@ figure {
   }
 }
 
-/* Figure captions */
-
 figcaption {
+
   margin-bottom: 0.5em;
   color: $muted-text-color;
   font-family: $caption-font-family;
