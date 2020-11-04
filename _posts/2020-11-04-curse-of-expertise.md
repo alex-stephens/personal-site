@@ -22,7 +22,7 @@ However, in many cases, expertise can actually be a detriment to good teaching. 
 
 This phenomenon is today regarded as a cognitive bias called the *curse of expertise* (sometimes also called the curse of knowledge). It explains why great practitioners are not always great teachers, and why expertise - although often a reasonable heuristic - should not be what we look for in our teachers.
 
-## The online learning paradigm
+## Learning from amateurs
 
 Looking back at the historical picture, it is hard not to hold experts in the highest regard when it comes to teaching. The names whose teachings are passed onto us in school, from Archimedes to Newton to Einstein, are the foremost experts in their fields, whose innovations profoundly advanced our collective knowledge. The people we traditionally learn from directly, the teachers, professors and scholars, got to these roles by first earning recognition as experts from the institutions that publish their work or pay them to teach.
 
