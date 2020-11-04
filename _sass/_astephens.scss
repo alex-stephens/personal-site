@@ -93,8 +93,8 @@ blockquote {
     // border-bottom: 2px dotted $link-color-hover;
 }
 
-// images
-img {
+// image border
+.bordered {
   border: 1px solid #ddd;
   border-radius: $border-radius;
   padding: 5px;
