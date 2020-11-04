@@ -22,4 +22,10 @@ var store = [{
         "tags": [],
         "url": "https://alex-stephens.github.io/blog/make-it-easy/",
         "teaser": "https://alex-stephens.github.io/assets/images/teaser.png"
+      },{
+        "title": "Breaking the Curse of Expertise",
+        "excerpt":"That’s all any of us are: amateurs. We don’t live long enough to be anything else. Charlie Chaplin In my second year as an undergraduate, I got a job as a tutor at my university, teaching an introductory programming course. Most of the students in this course were only a...","categories": [],
+        "tags": [],
+        "url": "https://alex-stephens.github.io/blog/curse-of-expertise/",
+        "teaser": "https://alex-stephens.github.io/assets/images/teaser.png"
       }]
