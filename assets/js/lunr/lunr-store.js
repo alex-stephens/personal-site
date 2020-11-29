@@ -32,6 +32,6 @@ var store = [{
         "title": "Goodhart's Law: How Not to Read More Books",
         "excerpt":"At some point in our lives, most of us have had the thought “I should try to read more” . In the current of era distractedness, where everything and everyone is competing for our attention in real time, it can be hard to just sit down and read a good...","categories": [],
         "tags": [],
-        "url": "https://alex-stephens.github.io/blog/how-to-read-more/",
+        "url": "https://alex-stephens.github.io/blog/reading/",
         "teaser": "https://alex-stephens.github.io/assets/images/teaser.png"
       }]
