@@ -35,15 +35,15 @@ var store = [{
         "url": "https://alex-stephens.github.io/blog/reading/",
         "teaser": "https://alex-stephens.github.io/assets/images/teaser.png"
       },{
-        "title": "2020 Retrospective",
-        "excerpt":"I’ve never really been one for actively reflecting on my personal life, but as I sit here in my flat in Oxford under Tier 4 lockdown as the shit-show of 2020 comes to an end, this seems like as good a time as any to start. This post will be...","categories": [],
-        "tags": [],
-        "url": "https://alex-stephens.github.io/blog/2020-retro/",
-        "teaser": "https://alex-stephens.github.io/assets/images/teaser.png"
-      },{
         "title": "2020 Content Roundup",
         "excerpt":"More so than many other years, I think it’s reasonable to say that my 2020 was shaped significantly by the various content I consumed, for reasons personal, circumstantial, and global-pandemic-related. As such I thought it might be fun to write up this little overview of the pieces that I enjoyed...","categories": [],
         "tags": [],
         "url": "https://alex-stephens.github.io/blog/2020-roundup/",
+        "teaser": "https://alex-stephens.github.io/assets/images/teaser.png"
+      },{
+        "title": "2020 Retrospective",
+        "excerpt":"I’ve never really been one for actively reflecting on my personal life, but as I sit here in my flat in Oxford under Tier 4 lockdown as the shit-show of 2020 comes to an end, this seems like as good a time as any to start. This post will be...","categories": [],
+        "tags": [],
+        "url": "https://alex-stephens.github.io/blog/2020-retro/",
         "teaser": "https://alex-stephens.github.io/assets/images/teaser.png"
       }]
