@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "`Shift + >` and the Importance of Making It Easy"
+
+summary: One useful keyboard shortcut can make all the difference. This post discusses how the discovery of this shortcut changed my behaviour and significantly improved my life, and how this relates to habit formation more generally.
 ---
 
 When was the last time you picked up a new skill or habit that immediately became part of your natural way of doing things?

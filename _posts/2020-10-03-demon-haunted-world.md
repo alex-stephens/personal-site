@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "The Demon Haunted World of COVID-19"
+
+summary: A look at what we can learn from Carl Sagan's 1995 book *The Demon Haunted World* about science denial and the value of scepticism in the age of COVID-19.
 ---
 
 A couple of months ago, I came across a quote that has been circulating online a fair bit this year. The quote comes from the 1995 book *The Demon Haunted World* by the American astrophysicist and science communicator Carl Sagan, and reads as follows:

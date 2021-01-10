@@ -2,6 +2,8 @@
 layout: single
 title:  "The Rule of Six"
 subtitle:  "An Unexpected Upside to Restrictions on Social Gatherings"
+
+summary: Restrictions on the size of social gatherings might seem initially to be purely a detriment to one's social life. However, their actual effect can be to encourage more intimate gatherings, leading to more meaningful interactions than one might find at larger events. 
 ---
 
 About a month ago, I moved from Australia to the UK to start a PhD at the University of Oxford. While I was quite excited for the move despite the uncertainty of relocating halfway around the world during a global pandemic, I still arrived with the expectation that I would not be able to have the usual social experience of a new student (a *fresher*, if you will) at Oxford.
