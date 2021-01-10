@@ -65,14 +65,15 @@ pre {
 // invisible links - no highlight unless hovered over, no underline
 a.hidden-link {
     &:link,
-    &:visited {
-        color: $primary-color;
+    &:visited,
+    &:hover {
+        color: inherit;
         text-decoration: none;
     }
 
-    &:hover {
-        color: $link-color-hover;
-    }
+    // &:hover {
+    //     color: $link-color-hover;
+    // }
 }
 
 .ftlink {

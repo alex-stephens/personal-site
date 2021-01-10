@@ -18,11 +18,11 @@
       </div>
     {% endif %}
     <a class="hidden-link" href="{{ post.url | relative_url }}" rel="permalink">
-    <h4 class="page__title" itemprop="headline">
-            {{ title }}
-            {% if post.subtitle %}: {{ post.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}
+    <h5 class="page__title" itemprop="headline">
+            {{ title | strip}}<!-- remove space between title and :
+         -->{% if post.subtitle %}: {{ post.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}
             {% endif %}
-    </h4>
+    </h5>
 
 
     {% if post.date %}
