@@ -10,14 +10,37 @@
   {% assign title = post.title %}
 {% endif %}
 
-<tr>
-    <td class="col-date" >
-        {{ post.date | date: '%B %-d' }}
-    </td>
-    <td class="col-title">
-        <a href="{{ post.url }}">
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+    {% endif %}
+    <a class="hidden-link" href="{{ post.url | relative_url }}" rel="permalink">
+    <h4 class="page__title" itemprop="headline">
             {{ title }}
-            {% if post.subtitle %}: {{ post.subtitle}} {% endif %}
-        </a>
-    </td>
-</tr>
+            {% if post.subtitle %}: {{ post.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}
+            {% endif %}
+    </h4>
+
+
+    {% if post.date %}
+    <p class="page__meta" style="text-align:left">
+      <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d %Y" }}</time>
+    {% if post.read_time %}
+      <!-- <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p> -->
+      &middot {% include read-time.html %}
+    {% endif %}
+    </p>
+    {% endif %}
+
+    {% if post.summary %}
+    <section class="page__content">
+        {{ post.summary | markdownify}}
+    </section>
+    </a>
+
+    {% endif %}
+  </article>
+</div>

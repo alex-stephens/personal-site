@@ -300,7 +300,8 @@ body {
   font-size: $meta-font-size;
   font-weight: 600;
   text-align: $header-align;
-  text-transform: uppercase;
+  margin-bottom: 0.3em;
+  // text-transform: uppercase;
 
   p {
     margin: 0;
