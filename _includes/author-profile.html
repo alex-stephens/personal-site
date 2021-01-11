@@ -37,6 +37,14 @@
         </li>
       {% endif %}
 
+      {% if author.twitter %}
+        <li>
+          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
@@ -66,14 +74,6 @@
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.twitter %}
-        <li>
-          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span class="label">Twitter</span>
           </a>
         </li>
       {% endif %}
