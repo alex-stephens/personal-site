@@ -1,6 +1,7 @@
 ---
 layout: single
-title:  "Generative Art: Greater than the Sum of its Parts"
+title:  "Generative Art"
+subtitle: "Greater than the Sum of its Parts"
 
 summary: A brief introduction to the world of computer-generated art, and a guide on how to turn a simple visual idea into a more complex and satisfying pattern.
 ---
