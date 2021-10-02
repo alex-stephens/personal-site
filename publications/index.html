@@ -155,6 +155,8 @@
             </li><li class="masthead__menu-item">
               <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
+              <a href="/now/">Now</a>
+            </li><li class="masthead__menu-item">
               <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
               <a href="/assets/pdf/resume.pdf">CV</a>
@@ -283,7 +285,58 @@
         
         <h2 id="papers">Papers</h2>
 
-<ol class="bibliography"><li><span id="ebadi2020lamp">Ebadi, K., Chang, Y., Palieri, M., Stephens, A., Hatteland, A., Heiden, E., Thakur, A., Funabiki, N., Morrell, B., Wood, S., Carlone, L., &amp; Agha-mohammadi, A.-akbar. (2020). <i>LAMP: Large-Scale Autonomous Mapping and Positioning for Exploration of Perceptually-Degraded Subterranean Environments</i>. https://arxiv.org/abs/2003.01744v2</span>
+<ol class="bibliography"><li><span id="agha2021nebula">Agha, A., Otsu, K., Morrell, B., Fan, D. D., Thakker, R., Santamaria-Navarro, A., Kim, S.-K., Bouman, A., Lei, X., Edlund, J., &amp; others. (2021). NeBula: Quest for Robotic Autonomy in Challenging Environments; TEAM CoSTAR at the DARPA Subterranean Challenge. <i>ArXiv Preprint ArXiv:2103.11470</i>. https://arxiv.org/abs/2103.11470</span>
+
+<!-- Buttons -->
+<div class="btn-toolbar">
+
+  
+  <button class="btn btn-bib" type="button" data-toggle="collapse" data-target="#agha2021nebula-collapseAbstract" aria-expanded="false" aria-controls="collapseExample">
+    Abstract
+  </button>
+  
+
+  <button class="btn btn-bib" type="button" data-toggle="collapse" data-target="#agha2021nebula-collapseBibtex" aria-expanded="false" aria-controls="collapseExample">
+    Bib
+  </button>
+
+  
+  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/papers/agha2021nebula.pdf'">
+    PDF
+  </button>
+  
+
+  
+  <button class="btn btn-bib" type="button" onclick="window.location.href='https://arxiv.org/abs/2103.11470'">
+    Web
+  </button>
+  
+
+</div>
+
+
+<!-- Dropdowns -->
+<div class="collapse" id="agha2021nebula-collapseBibtex">
+    <div class="card card-body" id="agha2021nebula-bibtex">
+        <pre>@article{agha2021nebula,
+  title = {NeBula: Quest for Robotic Autonomy in Challenging Environments; TEAM CoSTAR at the DARPA Subterranean Challenge},
+  author = {Agha, Ali and Otsu, Kyohei and Morrell, Benjamin and Fan, David D and Thakker, Rohan and Santamaria-Navarro, Angel and Kim, Sung-Kyun and Bouman, Amanda and Lei, Xianmei and Edlund, Jeffrey and others},
+  journal = {arXiv preprint arXiv:2103.11470},
+  year = {2021},
+  file = {agha2021nebula},
+  url = {https://arxiv.org/abs/2103.11470}
+}
+</pre>
+    </div>
+</div>
+
+<div class="collapse" id="agha2021nebula-collapseAbstract">
+    <div class="card card-body" id="agha2021nebula-abstract">
+        <pre>This paper presents and discusses algorithms, hardware, and software architecture developed by the TEAM CoSTAR (Collaborative SubTerranean Autonomous Robots), competing in the DARPA Subterranean Challenge. Specifically, it presents the techniques utilized within the Tunnel (2019) and Urban (2020) competitions, where CoSTAR achieved 2nd and 1st place, respectively. We also discuss CoSTAR’s demonstrations in Martian-analog surface and subsurface (lava tubes) exploration. The paper introduces our autonomy solution, referred to as NeBula (Networked Belief-aware Perceptual Autonomy). NeBula is an uncertainty-aware framework that aims at enabling resilient and modular autonomy solutions by performing reasoning and decision making in the belief space (space of probability distributions over the robot and world states). We discuss various components of the NeBula framework, including: (i) geometric and semantic environment mapping; (ii) a multi-modal positioning system; (iii) traversability analysis and local planning; (iv) global motion planning and exploration behavior; (i) risk-aware mission planning; (vi) networking and decentralized reasoning; and (vii) learning-enabled adaptation. We discuss the performance of NeBula on several robot types (e.g. wheeled, legged, flying), in various environments. We discuss the specific results and lessons learned from fielding this solution in the challenging courses of the DARPA Subterranean Challenge competition.</pre>
+    </div>
+</div>
+</li>
+<li><span id="ebadi2020lamp">Ebadi, K., Chang, Y., Palieri, M., Stephens, A., Hatteland, A., Heiden, E., Thakur, A., Funabiki, N., Morrell, B., Wood, S., Carlone, L., &amp; Agha-mohammadi, A.-akbar. (2020). <i>LAMP: Large-Scale Autonomous Mapping and Positioning for Exploration of Perceptually-Degraded Subterranean Environments</i>. https://arxiv.org/abs/2003.01744v2</span>
 
 <!-- Buttons -->
 <div class="btn-toolbar">
@@ -299,7 +352,7 @@
   </button>
 
   
-  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/pdf/ebadi2020lamp.pdf'">
+  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/papers/ebadi2020lamp.pdf'">
     PDF
   </button>
   
@@ -352,7 +405,7 @@
   </button>
 
   
-  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/pdf/Bland_Hawthorn_2017.pdf'">
+  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/papers/Bland_Hawthorn_2017.pdf'">
     PDF
   </button>
   
@@ -412,7 +465,7 @@
   </button>
 
   
-  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/pdf/stephens2020thesis.pdf'">
+  <button class="btn btn-bib" type="button" onclick="window.location.href='/assets/papers/stephens2020thesis.pdf'">
     PDF
   </button>
   
