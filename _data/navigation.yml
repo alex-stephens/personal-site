@@ -6,6 +6,8 @@ main:
   #   url: /about/
   - title: "Blog"
     url: /blog/
+  - title: "Now"
+    url: /now/
   - title: "Publications"
     url: /publications/
   - title: "CV"
