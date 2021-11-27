@@ -5,27 +5,26 @@ permalink: "/now/"
 
 This is my [now](https://nownownow.com/about) page, inspired by [Derek Sivers](https://sive.rs/now).
 
-Last updated on October 2nd, 2021.
+Last updated on November 27th, 2021.
 
 
 ### Academia
 
-Working on contributing to a paper on non-cooperative multi-agent pathfinding for [AAMAS 2022](https://aamas2022-conference.auckland.ac.nz/).
+Foundational reading towards my core DPhil work, which is looking like it'll be something in multi-agent coordination under uncertainty. Alongside this, also working on a project in safe exploration, which will hopefully lead to a chance to work with a [Spot](https://www.youtube.com/watch?v=7atZfX85nd4) robot in the near future.
 
-Shortly will become a full-time DPhil researcher, having completed my first year with the [AIMS CDT](https://aims.robots.ox.ac.uk/). Feeling generally optimistic about my research path for the next couple of years.
 
 ### College life
 
-About to start a new academic year as MCR President at [Exeter College, Oxford](https://www.exeter.ox.ac.uk/) -- busy preparing for Freshers' Week, but excited for a new term which should be my first experience of Oxford social life at its best, after a year of Covid restrictions.
+Coming to the end of my final term as MCR President at [Exeter College, Oxford](https://www.exeter.ox.ac.uk/). This term has been by far the most enjoyable of my three - less Covid restrictions, more social activities, and generally a good time.
 
 ### Staying active
 
-Been having a particularly great time of my running routine the past few months, fitness is decent and it's good to have races and [parkrun](https://www.parkrun.org.uk/) happening again to keep things interesting.
+Did some nice events recently – came away from Oxford Half in October with a 1:50:48, which I was thrilled with. Also took part in the BUCS Duathlon in November along with a bunch of people from [OUTriC](https://www.outric.co.uk/), which was great fun.
 
-Running my first half marathon soon -- Oxford Half on October 18th!
+Overall, haven't been quite as active in OUTriC this term as I'd hoped, due to being busy with everything else. Hopefully will be able to devote myself to it a bit more next term.
 
-Looking forward to signing up for the Oxford Uni Triathlon Club for the new academic year, to hopefully bring a new social side to my training.
+Training for Brighton Marathon in April 2022 starts soon!
 
 ### Vibes
 
-Starting to think about some travel plans for the coming months -- excited to take advantage of the world opening up again. 
+Looking forward to travelling soon! Off to Dublin next week for a short holiday, and then back to Sydney at the end of December for 3 weeks.
