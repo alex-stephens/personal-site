@@ -38,9 +38,10 @@ Expertise as a concept is certainly still valued, but its importance has decreas
 
 It's worth thinking about how these biases towards authority and expertise affect our own behaviour and self-expression. The curse of expertise can actually play into this quite directly - if you become become good at some new skill, for example, it's easy to forget how hard it was to get there, and effectively become acclimatised to your new ability level. As a result, you underestimate your own knowledge, and the value that you could provide to others as a teacher, thinking that you don't know enough to be worthy of trying to share your experiences with anyone else. This is closely related to the more well-known concept of *impostor syndrome*.
 
-<figure>
-    <img src="https://imgs.xkcd.com/comics/impostor_syndrome_2x.png" style="width:350px"/>
-</figure>
+<p align="center">
+    <img src="https://imgs.xkcd.com/comics/impostor_syndrome_2x.png"
+    width="400"/>
+</p>
 
 
 Austin Kleon's book *Show Your Work!* aims to break down the barriers that make us reluctant to share our art and ideas with the world, encouraging us to abandon this need to feel like we are *qualified* to do so:

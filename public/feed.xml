@@ -7,9 +7,49 @@
       <language>en-us</language>
       <managingEditor>address@yoursite.com (Alex Stephens)</managingEditor>
       <webMaster>address@yoursite.com (Alex Stephens)</webMaster>
-      <lastBuildDate>Sun, 25 Oct 2020 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 04 Jan 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://alexstephens.net/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://alexstephens.net/blog/2021-01-04-2020-retro</guid>
+    <title>2020 Retrospective</title>
+    <link>https://alexstephens.net/blog/2021-01-04-2020-retro</link>
+    <description>A look back on the major events and personal development that shaped my experience of 2020, and some thoughts on what I&#39;d like to focus on in 2021.</description>
+    <pubDate>Mon, 04 Jan 2021 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Alex Stephens)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://alexstephens.net/blog/2020-12-31-2020-roundup</guid>
+    <title>2020 Content Roundup</title>
+    <link>https://alexstephens.net/blog/2020-12-31-2020-roundup</link>
+    <description>The books, movies, games and online content that I enjoyed the most or that affected me most profoundly in 2020.</description>
+    <pubDate>Thu, 31 Dec 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Alex Stephens)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://alexstephens.net/blog/2020-11-29-reading</guid>
+    <title>Goodhart&#39;s Law: How Not to Read More Books</title>
+    <link>https://alexstephens.net/blog/2020-11-29-reading</link>
+    <description>A discussion of the various helpful and unhelpful advice that I&#39;ve come across in my quest to develop my reading habit.</description>
+    <pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Alex Stephens)</author>
+    
+  </item>
+
+  <item>
+    <guid>https://alexstephens.net/blog/2020-11-04-curse-of-expertise</guid>
+    <title>Breaking the Curse of Expertise</title>
+    <link>https://alexstephens.net/blog/2020-11-04-curse-of-expertise</link>
+    <description>Who am I to think I&#39;ve got anything worth sharing in an online blog? This post explores why the attitude behind this question is misguided, how we&#39;ve been taught to over-value &quot;expertise&quot;, and my reasons for starting this blog to share my thoughts online.</description>
+    <pubDate>Wed, 04 Nov 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Alex Stephens)</author>
+    
+  </item>
+
   <item>
     <guid>https://alexstephens.net/blog/2020-10-25-make-it-easy</guid>
     <title>`Shift + &gt;` and the Importance of Making It Easy</title>
