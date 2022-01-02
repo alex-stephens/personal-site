@@ -11,12 +11,12 @@ const siteMetadata = {
   image: '/static/images/avatar.png',
   avatar: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
+  email: 'alex.stephens@eng.ox.ac.uk',
   github: 'https://github.com/alex-stephens',
   twitter: 'https://twitter.com/astephens__',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/alex-stephens',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics

@@ -5,7 +5,7 @@ occupation: PhD Student in Robotics
 company: University of Oxford
 email: alex.stephens@eng.ox.ac.uk
 twitter: https://twitter.com/astephens__
-linkedin: https://www.linkedin.com/alex-stephens
+linkedin: https://www.linkedin.com/in/alex-stephens
 github: https://github.com/alex-stephens
 ---
 
