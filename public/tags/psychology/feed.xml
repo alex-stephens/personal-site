@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>alex.stephens@eng.ox.ac.uk (Alex Stephens)</managingEditor>
       <webMaster>alex.stephens@eng.ox.ac.uk (Alex Stephens)</webMaster>
-      <lastBuildDate>Sun, 18 Oct 2020 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://alexstephens.net/tags/covid-19/feed.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 04 Nov 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://alexstephens.net/tags/psychology/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://alexstephens.net/blog/curse-of-expertise</guid>
+    <title>Breaking the Curse of Expertise</title>
+    <link>https://alexstephens.net/blog/curse-of-expertise</link>
+    <description>Who am I to think I&#39;ve got anything worth sharing in an online blog? This post explores why the attitude behind this question is misguided, how we&#39;ve been taught to over-value &quot;expertise&quot;, and my reasons for starting this blog to share my thoughts online.</description>
+    <pubDate>Wed, 04 Nov 2020 00:00:00 GMT</pubDate>
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Psychology</category>
+  </item>
+
   <item>
     <guid>https://alexstephens.net/blog/rule-of-six</guid>
     <title>The Rule of Six</title>
@@ -18,16 +28,6 @@
     <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
     <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
     <category>Psychology</category><category>COVID-19</category>
-  </item>
-
-  <item>
-    <guid>https://alexstephens.net/blog/demon-haunted-world</guid>
-    <title>The Demon Haunted World of COVID-19</title>
-    <link>https://alexstephens.net/blog/demon-haunted-world</link>
-    <description>A look at what we can learn from Carl Sagan&#39;s 1995 book *The Demon Haunted World* about science denial and the value of scepticism in the age of COVID-19.</description>
-    <pubDate>Sat, 03 Oct 2020 00:00:00 GMT</pubDate>
-    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
-    <category>Books</category><category>Science</category><category>COVID-19</category>
   </item>
 
     </channel>

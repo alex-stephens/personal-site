@@ -7,19 +7,9 @@
       <language>en-us</language>
       <managingEditor>alex.stephens@eng.ox.ac.uk (Alex Stephens)</managingEditor>
       <webMaster>alex.stephens@eng.ox.ac.uk (Alex Stephens)</webMaster>
-      <lastBuildDate>Fri, 07 Jan 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 03 Jan 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://alexstephens.net/feed.xml" rel="self" type="application/rss+xml"/>
       
-  <item>
-    <guid>https://alexstephens.net/blog/2021-retro</guid>
-    <title>2021 Retrospective</title>
-    <link>https://alexstephens.net/blog/2021-retro</link>
-    <description>A look back on the major events and personal development that shaped my experience of 2020, and some thoughts on what I&#39;d like to focus on in 2021.</description>
-    <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
-    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
-    <category>Retro</category><category>Personal</category>
-  </item>
-
   <item>
     <guid>https://alexstephens.net/blog/2021-roundup</guid>
     <title>2021 Content Roundup</title>
@@ -67,7 +57,7 @@
     <description>Who am I to think I&#39;ve got anything worth sharing in an online blog? This post explores why the attitude behind this question is misguided, how we&#39;ve been taught to over-value &quot;expertise&quot;, and my reasons for starting this blog to share my thoughts online.</description>
     <pubDate>Wed, 04 Nov 2020 00:00:00 GMT</pubDate>
     <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
-    <category>Psychology</category>
+    <category>Psychology</category><category>Self-Development</category>
   </item>
 
   <item>
@@ -77,7 +67,7 @@
     <description>One useful keyboard shortcut can make all the difference. This post discusses how the discovery of this shortcut changed my behaviour and significantly improved my life, and how this relates to habit formation more generally.</description>
     <pubDate>Sun, 25 Oct 2020 00:00:00 GMT</pubDate>
     <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
-    <category>Productivity</category><category>Habits</category><category>Self-Development</category>
+    <category>Productivity</category><category>Habits</category><category>Self-Development</category><category>Psychology</category>
   </item>
 
   <item>

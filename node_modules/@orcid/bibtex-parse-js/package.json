@@ -1,0 +1,32 @@
+{
+  "name": "@orcid/bibtex-parse-js",
+  "version": "0.0.25",
+  "description": "A JavaScript library that parses BibTeX to JSON",
+  "main": "bibtexParse.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORCID/bibtexParseJs.git"
+  },
+  "keywords": [
+    "bibtex",
+    "json",
+    "javascript",
+    "parser"
+  ],
+  "author": "rcpeters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ORCID/bibtexParseJs/issues"
+  },
+  "homepage": "https://github.com/ORCID/bibtexParseJs#readme",
+  "dependencies": {}
+}
