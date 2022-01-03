@@ -31,9 +31,9 @@ Let's start with a quick overview of what actually happened in my life this year
 
 ##### February-April
 
-* Bushfires were quickly replaced by new, [more exciting disasters](/assets/2021-01-04-2020-retro/waves.jpg).
+* Bushfires were quickly replaced by new, [more exciting disasters](/static/assets/2020-retro/waves.jpg).
 * Resumed my casual job as a tutor at the University of Sydney for the semester, which was moved online halfway through – got to experience the joy of online online (there were a few upsides, but mostly it sucked).
-* Interviewed for Oxford, got accepted (!) and [secured funding](/assets/2021-01-04-2020-retro/funding.jpg), meaning I would be moving my life to the UK in September.
+* Interviewed for Oxford, got accepted (!) and [secured funding](/static/assets/2020-retro/funding.jpg), meaning I would be moving my life to the UK in September.
 
 ##### May-August
 
