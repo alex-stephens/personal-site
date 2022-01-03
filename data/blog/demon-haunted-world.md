@@ -13,7 +13,7 @@ This passage, particularly the final third, resonated quite strongly with me bec
 
 In June, Dr Anthony Fauci, one of top infectious disease experts and health advisors in the US, lamented the "anti-science bias" present in the country, attributing the country's ineffective pandemic response to this bias. Be it refusal to wear face masks in public, or denial of the existence of the virus altogether, anti-scientific attitudes have run rampant this year. My first thought upon reading the above quote was that Sagan, who died in 1996, would not have been surprised by this. I wondered if the book might help me to better understand our collective response to the coronavirus pandemic.
 
-## Preferring the darkness
+# Preferring the darkness
 
 The full title of Sagan's book is *The Demon-Haunted World: Science as a Candle in the Dark*. The subtitle is a reference to the 1656 book *A Candle in the Dark* by Thomas Ady, a sceptical attack on the then-popular practice of witch-hunting. Witches were persecuted for their supposed supernatural abilities, used as scapegoats for various misfortunes, and frequently forced by torture to confess to various crimes.
 
@@ -21,7 +21,7 @@ Ady describes the witch mania as a scam "to delude the people", arguing against 
 
 Sagan draws parallels between the witch mania and the alien abduction phenomenon of the later 20th century. He points out that although the entire concept could be explained away by fairly basic lines of questioning, many people claimed nonetheless to have been abducted by aliens, and many more believed these stories. The common traits of the supposed aliens were particularly telling -- in different cultures' representations of them, they always bore strong resemblance to humans. People who claimed to have communicated with aliens would never learn any interesting information from them (new scientific knowledge or answers to unsolved mathematical problems, for example) only vague statements about the meaning of life that could easily have been conjured up by an attention seeker. Their warnings for the future always centred on well-known fears (e.g. that of nuclear war in the 1950s), never demonstrating any convincing foreknowledge. The concept of alien abduction did not hold up to basic scepticism, and yet people *wanted* to believe in aliens, so they did.
 
-## Additional driving forces
+# Additional driving forces
 
 In the face of societal upheaval, the fact that we tend to prefer to hold onto our existing worldview is not particularly surprising. There is little to enjoy about any of the widespread behaviour changes demanded by COVID, and many have led to significant hardships for large portions of the population. In the US and many other countries, this tendency is compounded by the poor standard of scientific education, which contributes to a society in which people do not think critically about the information they are presented. As soon as an anti-scientific movement gains a little steam, it is readily adopted by the large cross-section of society who see it as a preferable alternative to accepting the reality of the pandemic.
 
@@ -31,7 +31,7 @@ The countries whose COVID-19 responses I have followed most closely are Australi
 
 Sagan's book discusses a couple of examples of similar phenomena in recent history -- it is worth looking at one of these in a bit of depth to see some parallels with what is happening now.
 
-## Smoke and mirrors
+# Smoke and mirrors
 
 In the 1960s, it is estimated that over 40% of Americans were regular smokers, a number that plummeted in the subsequent decades. This was largely due to a variety of scientific studies conducted in the 1950s and 1960s that demonstrated causal links between smoking and a variety of adverse health effects. However, the attitude shift in the medical community was slow, and is thought to have been hindered by resistance from nicotine-dependent doctors who were reluctant to believe in the dangers of smoking. The tobacco industry used its considerable influence to suppress scientific studies and lobby against tobacco controls that came under consideration as a result of these studies.
 
@@ -47,6 +47,6 @@ However, at a certain point, it becomes tempting to start to self-justify, and t
 
 This acts as a first step in disconnecting ourselves from reality, by choosing to believe something that we once knew on a rational level to be false. We must be willing to critically examine our own beliefs and the foundations upon which they are built.
 
-## The path forwards
+# The path forwards
 
 The main idea that was driven home for me by Sagan's book is that any society that is not well-educated in critical thought and scepticism is one that will readily slide into superstition and darkness. Our willingness to accept information that changes our view of the world competes with our natural resistance to change, a balance that can be tipped further against science by societal pressures. By actively examining our own beliefs, and questioning the assumptions and motives behind the information that is presented to us, perhaps we can work towards tipping the balance back the other way.

@@ -11,7 +11,7 @@ About a month ago, I moved from Australia to the UK to start a PhD at the Univer
 
 One of the hallmarks of this experience is Freshers' Week, the week before the academic year starts, during which the colleges (one of which every student at Oxford is a member of) run the gamut of social events that you might expect for a bunch of uni students who want to make new friends - which is to say, a lot of drinking events, and a couple of other events that will probably end up involving alcohol at some point too. In my case, the events were organised by the graduate student committee of Exeter College, catering to the 100 or so graduate students joining the college for the 2020-21 academic year.  
 
-## The rule of six
+# The rule of six
 
 This year, all of these events had to be organised in accordance with the UK Government health guidelines, most notably the  dramatically named "rule of six". As the name implies, this rule restricts all social gatherings to a maximum of six people in any setting - indoors, outdoors, public venues, private accommodation.
 
@@ -21,7 +21,7 @@ Don't get me wrong, the point of this post is not to complain about any of this 
 
 I actually came out of Freshers' Week feeling that I'd made plenty of friends and generally had an excellent time at all of the events, despite some misgivings from before it all got started. However, this was initially tinged with the understanding that it could have been *even better* in the absence of the pandemic, and that we'd somehow missed out on the "full experience"... But the more I thought about it in the days after, the more I realised that actually although some of the events might not have been as superficially exciting this year, they were actually a *better* experience for connecting with new people and making friends, which is exactly the point of Freshers' Week.
 
-## Social optionality
+# Social optionality
 
 To understand how I came to the conclusion that the rule of six restriction improved my experience of Freshers' Week, let's take a quick look at the idea of *social optionality*. I came across this concept in an episode of the podcast [Not Overthinking](https://notoverthinking.com/), in which one of the hosts, Taimur Abdaal, introduces the idea as a way of thinking about how we approach social interactions. He has a great blog post about it which you can check out [here](https://taimur.me/posts/against-social-optionality/) if you're interested.
 
@@ -35,7 +35,7 @@ In low optionality events, this mindset doesn't work any more - we know that we 
 
 Taimur concludes that the high optionality mindset causes us to miss out on making meaningful connections because we more ready to dismiss people instead of putting in the effort, and that ideally we should approach all interactions with something akin to the low optionality mindset.
 
-## The unexpected result
+# The unexpected result
 
 The conclusion I came to is that the effect of the UK Government's social gathering restrictions on Freshers' Week experience at Exeter College was precisely to *lower the social optionality of all of the events*. Had Freshers' Week involved, for example, the big wine and cheese night that is sometimes on the agenda, I have no doubt that I would have had a great time, and probably chatted with loads of new people in the space of a few short hours. However, it's likely that many of these conversations would have been that typical awkward small talk that sometimes dominates events where nobody knows each other, and I probably would've forgotten the names of many of the people I met by the following morning.
 

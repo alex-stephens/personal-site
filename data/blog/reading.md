@@ -10,7 +10,7 @@ At some point in our lives, most of us have had the thought "I should try to rea
 
 In the last couple of months, I've been more or less able to re-establish my reading routine to a level that I'm happy with for now, and confident that I will be able to maintain or build upon.  In this time, I've also tried to learn a bit about how to go about reading more in an effective manner, as well as more generally how to establish habits that will stick. This post reflects on the advice I've come across and behaviour changes I've implemented over the last few months towards this aim.
 
-## Things that haven't helped
+# Things that haven't helped
 
 One of the common threads that comes up when you look for advice online on how to read more is videos or blog posts with titles like "How I Read 100 Books in a Year". Some of these actually contain great advice, but I do feel that the way they are framed - with **reading more books** as the primary goal - is somewhat problematic. When you set this goal for yourself, there are side-effects that reduce the value you actually get from the act of the reading, and might even eventually discourage you from reading as much in the long term.
 
@@ -26,7 +26,7 @@ I don't think there are many people out there who would say "I don't want to rea
 
 The problem is that we set the goal of reading more books with the intention of *contributing more overall value to our lives through reading*, but as soon as we start changing our behaviour to specifically target that goal of reading more books, we side-step many of the qualities that make reading valuable in the first place.
 
-## Things that have helped
+# Things that have helped
 
 So the question now is, what __should__ you focus on if your aim is to get more value out of reading? So far, I've found that the most helpful changes to either my worldview or my reading habits have been ones that (a) make me *want* to read more, or (b) optimise the reading process for my mood and interests.
 
@@ -45,7 +45,7 @@ The main thing that ties all of these things together is that they all focus on 
 
 Clear argues that the long-term positive behaviour change must rely on **systems** rather than goals: "You do not rise to the level of your goals. You fall to the level of your systems.” The habits and attitude shifts listed above have meant that I read more in the last few months than I had at any point in the last few years. More importantly, by optimising the reading process and eliminating some of the associated mental blocks, I am able to enjoy the books I read much more, and as a result also get more value out of them.
 
-## Towards better reading
+# Towards better reading
 
 The upshot of all of this is that by eliminating a bunch of the obstacles to reading consistently, then adopting habits that make reading more fun and incorporating them into my daily routine, I have been able to read more, read better, and enjoy it more.
 

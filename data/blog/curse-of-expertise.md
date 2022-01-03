@@ -16,7 +16,7 @@ In my second year as an undergraduate, I got a job as a tutor at my university, 
 
 In part, I understand where these doubts came from - in many fields, teaching effectively on certain topics *requires* understanding that goes deeper than the actual content being taught. I found this to be particularly true in my studies of physics, where as first-year students we would often have questions that required significant background knowledge and intuition to answer satisfyingly. However, this is not the case across the board, and certainly wasn't the case in my course, which was self-contained in such a way that it would not tend to provoke questions that went outside of its scope. In short, if you knew the content and knew how to teach, you would be able to teach it well.  
 
-## The curse of expertise
+# The curse of expertise
 
 Our default mindset is to prefer being taught by people whom we consider to be *experts*, whatever that might mean in the particular context. We want to learn from people with a lot of *experience*, in the hope that we will somehow be able to absorb their distilled knowledge and wisdom - a hope that, at least at first glance, seems completely reasonable.
 
@@ -26,7 +26,7 @@ However, in many cases, expertise can actually be a barrier to effective teachin
 
 This phenomenon is today regarded as a cognitive bias called the *curse of expertise* (sometimes also called the curse of knowledge). It explains why great practitioners are not always great teachers, and why expertise - although often a reasonable heuristic - should not be what we look for in our teachers.
 
-## Learning from amateurs
+# Learning from amateurs
 
 Looking back at the historical picture, it is hard not to hold experts in the highest regard when it comes to teaching. The names whose teachings are passed onto us in school, from Archimedes to Newton to Einstein, are the foremost experts in their fields, whose innovations profoundly advanced our collective knowledge. The people we traditionally learn from directly, the teachers, professors and scholars, got to these roles by first earning recognition as experts from the institutions that publish their work or pay them to teach.
 
@@ -34,7 +34,7 @@ The growth of online education represents a major shift away from our reliance o
 
 Expertise as a concept is certainly still valued, but its importance has decreased a lot in the last few years, and will likely continue to do so as the online education space expands. This leaves us in a place where it is easy to *overestimate* the expertise of the people whose content we consume. Many of the people we learn from online are not experts, just people who learned a bit about something and were keen to share it with others.
 
-## You don't need to be an expert
+# You don't need to be an expert
 
 It's worth thinking about how these biases towards authority and expertise affect our own behaviour and self-expression. The curse of expertise can actually play into this quite directly - if you become become good at some new skill, for example, it's easy to forget how hard it was to get there, and effectively become acclimatised to your new ability level. As a result, you underestimate your own knowledge, and the value that you could provide to others as a teacher, thinking that you don't know enough to be worthy of trying to share your experiences with anyone else. This is closely related to the more well-known concept of *impostor syndrome*.
 
