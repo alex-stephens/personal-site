@@ -1,7 +1,7 @@
 ---
 title:  "Breaking the Curse of Expertise"
 date: '2020-11-04'
-tags: []
+tags: [Psychology]
 
 summary: Who am I to think I've got anything worth sharing in an online blog? This post explores why the attitude behind this question is misguided, how we've been taught to over-value "expertise", and my reasons for starting this blog to share my thoughts online.
 

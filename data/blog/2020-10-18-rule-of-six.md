@@ -1,7 +1,7 @@
 ---
 title:  "The Rule of Six"
 date: '2020-10-18'
-tags: []
+tags: [Psychology, COVID-19]
 subtitle:  "An Unexpected Upside to Restrictions on Social Gatherings"
 
 summary: Restrictions on the size of social gatherings might seem initially to be purely a detriment to one's social life. However, their actual effect can be to encourage more intimate gatherings, leading to more meaningful interactions than one might find at larger events.

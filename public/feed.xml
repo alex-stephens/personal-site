@@ -5,8 +5,8 @@
       <link>https://alexstephens.net/blog</link>
       <description></description>
       <language>en-us</language>
-      <managingEditor>address@yoursite.com (Alex Stephens)</managingEditor>
-      <webMaster>address@yoursite.com (Alex Stephens)</webMaster>
+      <managingEditor>alex.stephens@eng.ox.ac.uk (Alex Stephens)</managingEditor>
+      <webMaster>alex.stephens@eng.ox.ac.uk (Alex Stephens)</webMaster>
       <lastBuildDate>Mon, 04 Jan 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://alexstephens.net/feed.xml" rel="self" type="application/rss+xml"/>
       
@@ -16,8 +16,8 @@
     <link>https://alexstephens.net/blog/2021-01-04-2020-retro</link>
     <description>A look back on the major events and personal development that shaped my experience of 2020, and some thoughts on what I&#39;d like to focus on in 2021.</description>
     <pubDate>Mon, 04 Jan 2021 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Alex Stephens)</author>
-    
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Retro</category><category>Personal</category>
   </item>
 
   <item>
@@ -26,8 +26,8 @@
     <link>https://alexstephens.net/blog/2020-12-31-2020-roundup</link>
     <description>The books, movies, games and online content that I enjoyed the most or that affected me most profoundly in 2020.</description>
     <pubDate>Thu, 31 Dec 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Alex Stephens)</author>
-    
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Retro</category><category>Entertainment</category><category>Personal</category>
   </item>
 
   <item>
@@ -36,8 +36,8 @@
     <link>https://alexstephens.net/blog/2020-11-29-reading</link>
     <description>A discussion of the various helpful and unhelpful advice that I&#39;ve come across in my quest to develop my reading habit.</description>
     <pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Alex Stephens)</author>
-    
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Productivity</category><category>Reading</category><category>Habits</category>
   </item>
 
   <item>
@@ -46,8 +46,8 @@
     <link>https://alexstephens.net/blog/2020-11-04-curse-of-expertise</link>
     <description>Who am I to think I&#39;ve got anything worth sharing in an online blog? This post explores why the attitude behind this question is misguided, how we&#39;ve been taught to over-value &quot;expertise&quot;, and my reasons for starting this blog to share my thoughts online.</description>
     <pubDate>Wed, 04 Nov 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Alex Stephens)</author>
-    
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Psychology</category>
   </item>
 
   <item>
@@ -56,8 +56,8 @@
     <link>https://alexstephens.net/blog/2020-10-25-make-it-easy</link>
     <description>One useful keyboard shortcut can make all the difference. This post discusses how the discovery of this shortcut changed my behaviour and significantly improved my life, and how this relates to habit formation more generally.</description>
     <pubDate>Sun, 25 Oct 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Alex Stephens)</author>
-    
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Productivity</category><category>Habits</category><category>Self-Development</category>
   </item>
 
   <item>
@@ -66,8 +66,8 @@
     <link>https://alexstephens.net/blog/2020-10-18-rule-of-six</link>
     <description>Restrictions on the size of social gatherings might seem initially to be purely a detriment to one&#39;s social life. However, their actual effect can be to encourage more intimate gatherings, leading to more meaningful interactions than one might find at larger events.</description>
     <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Alex Stephens)</author>
-    
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Psychology</category><category>COVID-19</category>
   </item>
 
   <item>
@@ -76,8 +76,8 @@
     <link>https://alexstephens.net/blog/2020-10-03-demon-haunted-world</link>
     <description>A look at what we can learn from Carl Sagan&#39;s 1995 book *The Demon Haunted World* about science denial and the value of scepticism in the age of COVID-19.</description>
     <pubDate>Sat, 03 Oct 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Alex Stephens)</author>
-    
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Books</category><category>Science</category><category>COVID-19</category>
   </item>
 
     </channel>

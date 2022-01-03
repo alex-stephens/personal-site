@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Alex Stephens</title>
+      <link>https://alexstephens.net/blog</link>
+      <description></description>
+      <language>en-us</language>
+      <managingEditor>alex.stephens@eng.ox.ac.uk (Alex Stephens)</managingEditor>
+      <webMaster>alex.stephens@eng.ox.ac.uk (Alex Stephens)</webMaster>
+      <lastBuildDate>Sun, 29 Nov 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://alexstephens.net/tags/reading/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://alexstephens.net/blog/2020-11-29-reading</guid>
+    <title>Goodhart&#39;s Law: How Not to Read More Books</title>
+    <link>https://alexstephens.net/blog/2020-11-29-reading</link>
+    <description>A discussion of the various helpful and unhelpful advice that I&#39;ve come across in my quest to develop my reading habit.</description>
+    <pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Productivity</category><category>Reading</category><category>Habits</category>
+  </item>
+
+    </channel>
+  </rss>

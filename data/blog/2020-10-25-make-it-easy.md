@@ -1,7 +1,7 @@
 ---
 title:  "`Shift + >` and the Importance of Making It Easy"
 date: '2020-10-25'
-tags: []
+tags: [Productivity, Habits, Self-Development]
 
 summary: One useful keyboard shortcut can make all the difference. This post discusses how the discovery of this shortcut changed my behaviour and significantly improved my life, and how this relates to habit formation more generally.
 ---

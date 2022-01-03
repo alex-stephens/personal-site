@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Alex Stephens</title>
+      <link>https://alexstephens.net/blog</link>
+      <description></description>
+      <language>en-us</language>
+      <managingEditor>alex.stephens@eng.ox.ac.uk (Alex Stephens)</managingEditor>
+      <webMaster>alex.stephens@eng.ox.ac.uk (Alex Stephens)</webMaster>
+      <lastBuildDate>Sun, 18 Oct 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://alexstephens.net/tags/social-psychology/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://alexstephens.net/blog/2020-10-18-rule-of-six</guid>
+    <title>The Rule of Six</title>
+    <link>https://alexstephens.net/blog/2020-10-18-rule-of-six</link>
+    <description>Restrictions on the size of social gatherings might seem initially to be purely a detriment to one&#39;s social life. However, their actual effect can be to encourage more intimate gatherings, leading to more meaningful interactions than one might find at larger events.</description>
+    <pubDate>Sun, 18 Oct 2020 00:00:00 GMT</pubDate>
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Social psychology</category><category>COVID-19</category>
+  </item>
+
+    </channel>
+  </rss>
