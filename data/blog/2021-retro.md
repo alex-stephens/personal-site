@@ -7,7 +7,7 @@ draft: false
 summary: A brief look back at 2021, and some areas to focus on for 2022.
 ---
 
-Well, well, well, 2022 has rolled around, and you know what that means – it's been about a year since I posted anything on this darn website (unless you count [this](/blog/2021-roundup)).
+Well, well, well, 2022 has rolled around, and you know what that means – it's been about a year since I posted anything on this darn website (unless you count [this](/blog/2021-roundup) – personally, I can't say I do).
 
 Anyway, it's time for some reflectin' – if you're not me, not really sure what you get out of reading this, but have fun!
 
