@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Alex Stephens',
   author: 'Alex Stephens',
   headerTitle: 'Alex Stephens',
-  description: '',
+  description: 'PhD student in Robotics at the University of Oxford, originally from Sydney. Writing sporadically about academia, robotics, self-development, triathlon, books I\'ve been reading, or anything else that comes to mind. Enjoy!',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://alexstephens.net',

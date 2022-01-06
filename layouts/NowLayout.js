@@ -5,7 +5,7 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 
 export default function NowLayout({ children, frontMatter }) {
-  const { name, occupation, company, email, twitter, linkedin, github, ethereum, solana } = frontMatter
+  const { name, avatar, occupation, company, email, twitter, linkedin, github, ethereum, solana } = frontMatter
 
   return (
     <>
