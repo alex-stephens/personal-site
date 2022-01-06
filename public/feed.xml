@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>alex.stephens@eng.ox.ac.uk (Alex Stephens)</managingEditor>
       <webMaster>alex.stephens@eng.ox.ac.uk (Alex Stephens)</webMaster>
-      <lastBuildDate>Mon, 03 Jan 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 06 Jan 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://alexstephens.net/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://alexstephens.net/blog/2021-retro</guid>
+    <title>2021 Retrospective</title>
+    <link>https://alexstephens.net/blog/2021-retro</link>
+    <description>A brief look back at 2021, and some areas to focus on for 2022.</description>
+    <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
+    <author>alex.stephens@eng.ox.ac.uk (Alex Stephens)</author>
+    <category>Retro</category><category>Personal</category>
+  </item>
+
   <item>
     <guid>https://alexstephens.net/blog/2021-roundup</guid>
     <title>2021 Content Roundup</title>

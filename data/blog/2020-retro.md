@@ -119,7 +119,7 @@ Cal Newport's book [Deep Work](https://www.goodreads.com/book/show/25744928-deep
 
 ## Connecting with people
 
-Moving to a place like Oxford is a huge opportunity, and I think pushing myself to get to know more people will be hugely beneficial (obviously there's not much to be done while the pandemic remains ). For this goal, I am not so much interested in attending big social events (though these can obviously be good in other ways), but rather in making the effort to do stuff like getting coffee with people I don't know super well, having people over for dinner, or similar activities in more intimate settings.
+Moving to a place like Oxford is a huge opportunity, and I think pushing myself to get to know more people will be hugely beneficial (obviously there's not much to be done while the pandemic remains). For this goal, I am not so much interested in attending big social events (though these can obviously be good in other ways), but rather in making the effort to do stuff like getting coffee with people I don't know super well, having people over for dinner, or similar activities in more intimate settings.
 
 ## Running
 
