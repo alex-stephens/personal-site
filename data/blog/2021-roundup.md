@@ -2,6 +2,7 @@
 title:  "2021 Content Roundup"
 date: '2022-01-03'
 tags: [Retro, Entertainment, Personal]
+draft: false
 
 summary: The various bits of content that stood out to me 2021.
 ---

@@ -52,11 +52,16 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           {displayPosts.map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
-              <li key={slug} className="py-4">
+              <Link
+                href={`/blog/${slug}`}
+                key={slug}
+                className="flex group hover:bg-gray-100 dark:hover:bg-gray-800 bg-transparent bg-opacity-20 transition duration-200"
+              >
+              <li key={slug} className="grow py-4">
                 <article className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
                   <dl>
                     <dt className="sr-only">Published on</dt>
-                    <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                    <dd className="text-base font-medium indent-4 leading-6 text-gray-500 dark:text-gray-400">
                       <time dateTime={date}>{formatDate(date)}</time>
                     </dd>
                   </dl>
@@ -79,6 +84,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                   </div>
                 </article>
               </li>
+              </Link>
             )
           })}
         </ul>
