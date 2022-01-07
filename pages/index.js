@@ -38,7 +38,7 @@ export default function Home({ posts }) {
             </Link>
           </div>
 
-          <p className="text-lg leading-7 text-gray-100 dark:text-gray-100">
+          <p className="text-lg leading-7 text-gray-900 dark:text-gray-100">
             {siteMetadata.description}
           </p>
 
@@ -51,7 +51,7 @@ export default function Home({ posts }) {
               <Link
                 href={`/blog/${slug}`}
                 key={slug}
-                className="flex group hover:bg-gray-200 dark:hover:bg-gray-800 bg-transparent bg-opacity-20 transition duration-200"
+                className="flex group hover:bg-gray-100 dark:hover:bg-gray-800 bg-transparent bg-opacity-20 transition duration-200"
               >
               <li key={slug} className="grow py-12">
                 <article>
