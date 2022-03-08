@@ -9,23 +9,22 @@ linkedin: https://www.linkedin.com/in/alex-stephens
 github: https://github.com/alex-stephens
 ---
 
-This is my [now](https://nownownow.com/about) page, inspired by [Derek Sivers](https://sive.rs/now). Last updated **2022-01-02**.
+This is my [now](https://nownownow.com/about) page, inspired by [Derek Sivers](https://sive.rs/now). Last updated **2022-03-08**.
 
-# Christmas break!
+## Post-Covid
 
-I've been back home in Sydney for most of December, enjoying a break after a busy year and hanging out with friends I haven't seen in a while. Also taken the opportunity to soak in some vitamin D before I head back into UK winter later this week...
-
-
-# Plans for 2022
+I had the (pretty inevitable) misfortune of contracting Covid in mid-February – my symptoms were relatively mild during isolation, but the fatigue has stuck around and is still very noticeable some days. Hopefully this starts to fade away soon...
 
 ## Academia
 
-This will be my first full (calendar) year working on the research side of my PhD, which is exciting as well as a little stressful to think about.
+Continuing work on my safe exploration project – missed the originally intended submission deadline (IROS 2022), now looking at turning it into a journal paper, possibly for submission to T-RO.
 
 ## Running/triathlon
 
-I've got two big events that I'm really looking forward to – Brighton Marathon in April, and Ironman 70.3 Finland (!) in July. Both of these will be insanely challenging milestones for me, and if I can make it to the end of them without injuring myself I'll be absolutely thrilled. Lots of training to think about before then though.
+Ran the Cambridge Half this past weekend, coming away with a new PB of 1:45:56. This was after a month of hardly running at all due to a mild knee injury as well as Covid – I felt completely fine for almost the entire race, and the knee did start to ache a little towards the end but not enough to slow me down much.
 
-## College life
+This has left me unsure about whether I'll be able to manage the Brighton Marathon, which is now in *less than a month*. I'm still hopeful, but it will take some careful balancing to maintain some level of fitness without worsening my underlying injuries.
 
-On the Exeter College side, I'll be wrapping up my stint as MCR President in a couple of weeks. It's been a fun ride, but glad to be done with it to free up the time for other things... It's going to be a big year!
+## Social life
+
+Coming to the end of a busy Hilary term – while it's been nice having loads of social events to go to each week, the quieter time between terms will be a welcome respite (and chance to get a bit more work done, hopefully). I've also recently (for the first time ever) had a go on the good ol' dating apps, which has been a fun experience so far – maybe I'll do a blog post about that at some point...
