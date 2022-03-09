@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/alex-stephens
 github: https://github.com/alex-stephens
 ---
 
-This is my [now](https://nownownow.com/about) page, inspired by [Derek Sivers](https://sive.rs/now). Last updated **2022-03-08**.
+This is my [now](https://nownownow.com/about) page, inspired by [Derek Sivers](https://sive.rs/now). Last updated **2022-03-09**.
 
 ## Post-Covid
 
@@ -23,7 +23,7 @@ Continuing work on my safe exploration project – missed the originally intende
 
 Ran the Cambridge Half this past weekend, coming away with a new PB of 1:45:56. This was after a month of hardly running at all due to a mild knee injury as well as Covid – I felt completely fine for almost the entire race, and the knee did start to ache a little towards the end but not enough to slow me down much.
 
-This has left me unsure about whether I'll be able to manage the Brighton Marathon, which is now in *less than a month*. I'm still hopeful, but it will take some careful balancing to maintain some level of fitness without worsening my underlying injuries.
+This has left me unsure about whether I'll be able to manage the Brighton Marathon, which is now in *just over a month*. I'm still hopeful, but it will take some careful balancing to maintain some level of fitness without worsening my underlying injuries.
 
 ## Social life
 
